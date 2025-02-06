@@ -20,7 +20,20 @@ from stac_manager.stac_metadata import Metadata, MetaDataExtractorFactory
 from stac_manager.data_models import STACCollectionSource, STACItemSource
 
 import config.settings as settings
-from examples.utils import print_dict
+from examples.utils import clean_catalog_table, _snake_case_values
+
+import pandas as pd
+import numpy as np
+
+catalog_table_path = '/Users/anguswatters/Downloads/Hawaii_Topobathy_Datasets.csv'
+catalog_df = pd.read_csv(catalog_table_path)
+catalog_df.columns
+
+catalog_df = clean_catalog_table(catalog_df)
+catalog_df
+
+
+catalog_df
 
 # List out desired collections to create/update
 collections = [
@@ -33,6 +46,21 @@ collections = [
             id = "atlantic",
             title = "Atlantic title",
             description = "Atlantic description"
+        ),
+        STACCollectionSource(
+            id = "pacific",
+            title = "Pacific title",
+            description = "Pacific description"
+        ),
+        STACCollectionSource(
+            id = "puerto_rico",
+            title = "Puerto Rico title",
+            description = "Puerto Rico description"
+        ),
+        STACCollectionSource(
+            id = "us_virgin_islands",
+            title = "US Virgin Islands title",
+            description = "US Virgin Islands description"
         ),
         STACCollectionSource(
             id = "hawaii",
@@ -104,8 +132,6 @@ items = [
     ),
 ]
 
-len(items)
-items[0]
 # --------------------------------------------------------------------------------------
 # ----- Setup initial catalog manager -----
 # --------------------------------------------------------------------------------------

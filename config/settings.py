@@ -3,8 +3,12 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 # Locate the .env file
-BASE_DIR = Path(__file__).resolve().parent.parent
-ENV_PATH = BASE_DIR / ".env"
+# BASE_DIR = Path(__file__).resolve().parent.parent
+# ENV_PATH = BASE_DIR / ".env"
+
+# Locate the .env file
+DEFAULT_BASE_DIR = Path(__file__).resolve().parent.parent
+ENV_PATH = DEFAULT_BASE_DIR / ".env"
 
 # Load environment variables from the .env file
 load_dotenv(dotenv_path=ENV_PATH)
@@ -12,7 +16,8 @@ load_dotenv(dotenv_path=ENV_PATH)
 DEBUG = os.getenv("DEBUG") == "True"
 
 # Base directory where stac catalogs will live
-BASE_DIR = os.getenv("BASE_DIR")
+BASE_DIR = os.getenv("BASE_DIR", str(DEFAULT_BASE_DIR))
+# BASE_DIR = os.getenv("BASE_DIR")
 ROOT_STAC_DIR_NAME= os.getenv("ROOT_STAC_DIR_NAME", "stac-root")
 ROOT_STAC_DIR=os.path.join(BASE_DIR, ROOT_STAC_DIR_NAME)
 
