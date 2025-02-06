@@ -1,8 +1,10 @@
 affine==2.4.0
 attrs==24.3.0
 beautifulsoup4==4.13.2
-botocore==1.36.8
+boto3==1.36.14
+botocore==1.36.14
 certifi==2024.12.14
+cftime==1.6.4.post1
 charset-normalizer==3.4.1
 click==8.1.8
 click-plugins==1.1.1
@@ -11,7 +13,9 @@ idna==3.10
 jmespath==1.0.1
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
+netCDF4==1.7.2
 numpy==2.2.1
+packaging==24.2
 pandas==2.2.3
 pyparsing==3.2.1
 pystac==1.11.0
@@ -31,3 +35,4 @@ stac_manager @ git+https://github.com/owp-spatial/surface-stac-tools.git@862d4f0
 typing_extensions==4.12.2
 tzdata==2025.1
 urllib3==2.3.0
+xarray==2025.1.2
