@@ -34,6 +34,7 @@ ROOT_CATALOG_ID           = os.getenv("ROOT_CATALOG_ID", "hf-surfaces-catalog")
 ROOT_CATALOG_TITLE        = os.getenv("ROOT_CATALOG_TITLE", "hf-surfaces-title")
 ROOT_CATALOG_DESCRIPTION  = os.getenv("ROOT_CATALOG_DESCRIPTION", "hf-surfaces-description")
 
+ELEVATION_SOURCES_DATA_URI = os.getenv("ELEVATION_SOURCES_DATA_URI")
 
 # # TODO: Remove these testing files from the settings
 # VRT_URI = os.getenv("VRT_URI")

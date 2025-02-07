@@ -4,10 +4,11 @@ from typing import Union
 
 import requests
 
-from runner.constants import DATA_SOURCES_URI
+from runner.data_models import CatalogTableRecord
+from runner.constants import ELEVATION_SOURCES_DATA_URI
 
-class RemoteCatalog:
-    def __init__(self, url: str = DATA_SOURCES_URI):
+class RemoteCatalogTable:
+    def __init__(self, url: str = ELEVATION_SOURCES_DATA_URI):
         self.url = url
         self.catalog_data = None
         self._init_catalog()
@@ -49,12 +50,20 @@ class RemoteCatalog:
 
         return catalog_data
     
+    def _convert_catalog_data_to_catalog_records(self, catalog_data : list[dict]) -> list[CatalogTableRecord]:
+        for i, record in enumerate(catalog_data):
+            catalog_data[i] = CatalogTableRecord.from_dict(record)
+        
+        return catalog_data
+    
     def _init_catalog(self) -> None:
         if not self.catalog_data:
             catalog_data = self._fetch_catalog()
             catalog_data = self._convert_str_lists_to_lists(catalog_data=catalog_data, 
                                                             str_list_keys = ["asset_urls"]
                                                             )
+            catalog_data = self._convert_catalog_data_to_catalog_records(catalog_data=catalog_data)
+
         self.catalog_data = catalog_data
             
         return None
