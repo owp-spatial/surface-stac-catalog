@@ -12,11 +12,6 @@ import numpy as np
 
 from runner.utils import get_collection_id_from_parts, get_highest_priority_asset_urls
 from runner.data_models import CatalogTableRecord
-from runner.data_sources import VRT_SOURCES, \
-    STAC_CATALOG_SOURCES, \
-    HTML_INDEX_SOURCES, \
-    DATA_SOURCES
-
 from runner.constants import OWP_SPATIAL_S3_BUCKET_BASE, \
     OWP_SPATIAL_S3_BUCKET_NAME, \
     OWP_SPATIAL_SURFACE_NWS_EHYDRO_S3_BUCKET, \
@@ -29,22 +24,12 @@ from runner.s3_data_cataloger import S3DataCataloger
  
 import config.settings as settings
 
-# 1. Get the remote catalog
-# 1a. Create Collections for each unique domain in REMOTE CATALOG
-# 2a. Add asset_urls as items (and as assets) to respective collection
-
-# 2. Get eHydro paths in S3
-# 2a. 
 # ----------------------------------------------------------------------------- 
 # ---- Elevation Sources Spatial S3 bucket data -----
 # ----------------------------------------------------------------------------- 
 
-# settings.CATALOG_URI
-# settings.ELEVATION_SOURCES_DATA_URI
-
 def get_collection_map_from_remote_catalog(url:str = settings.ELEVATION_SOURCES_DATA_URI) -> dict:
     
-    # url=settings.ELEVATION_SOURCES_DATA_URI 
 
     remote_catalog=RemoteCatalogTable(url=url)
     elevation_sources = remote_catalog.get_catalog()    
@@ -119,8 +104,6 @@ def main(catalog_path : str,
          catalog_description : str
          ):
 
-    # # print_dict(vars(settings))
-    # catalog_path = settings.CATALOG_URI
     collection_map = get_collection_map_from_remote_catalog()
 
     catalog_manager = CatalogManager(
@@ -129,7 +112,7 @@ def main(catalog_path : str,
         title = catalog_title,
         description = catalog_description
     )
-    
+
     catalog_manager.describe()
 
     # collection_map[collection_id]
@@ -162,6 +145,7 @@ def main(catalog_path : str,
                 ) 
             except Exception as e:
                 print(f"e:\n > '{e}'")
+                break
                 print()
 
         print()
@@ -187,10 +171,10 @@ if __name__ == "__main__":
     #     description=settings.ROOT_CATALOG_DESCRIPTION,
     # )
 
-    catalog_path=settings.CATALOG_URI,
-    catalog_id=settings.ROOT_CATALOG_ID,
-    catalog_title=settings.ROOT_CATALOG_TITLE,
-    catalog_description=settings.ROOT_CATALOG_DESCRIPTION,
+    catalog_path=settings.CATALOG_URI
+    catalog_id=settings.ROOT_CATALOG_ID
+    catalog_title=settings.ROOT_CATALOG_TITLE
+    catalog_description=settings.ROOT_CATALOG_DESCRIPTION
     
     main(catalog_path = catalog_path, 
          catalog_id=catalog_id, 
