@@ -31,7 +31,7 @@ s3transfer==0.11.1
 shapely==2.0.6
 six==1.17.0
 soupsieve==2.6
-stac_manager @ git+https://github.com/owp-spatial/surface-stac-tools.git@862d4f04f5b65928d7e43748616c1789854df8f7
+stac_manager @ git+https://github.com/owp-spatial/surface-stac-tools.git@a86c664c62e3764f20b52a3ef4af165e3c17ff0e
 typing_extensions==4.12.2
 tzdata==2025.1
 urllib3==2.3.0
