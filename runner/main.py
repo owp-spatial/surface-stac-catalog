@@ -29,7 +29,6 @@ import config.settings as settings
 # ----------------------------------------------------------------------------- 
 
 def get_collection_map_from_remote_catalog(url:str = settings.ELEVATION_SOURCES_DATA_URI) -> dict:
-    
 
     remote_catalog=RemoteCatalogTable(url=url)
     elevation_sources = remote_catalog.get_catalog()    
@@ -76,9 +75,6 @@ def get_collection_map_from_remote_catalog(url:str = settings.ELEVATION_SOURCES_
     
     return collection_map
 
-# collection_map.keys()
-# [len(val.get("items")) for key, val in collection_map.items()]
-
 # ----------------------------------------------------------------------------- 
 # ---- Catalog data in OWP Spatial S3 bucket data -----
 # ----------------------------------------------------------------------------- 
@@ -115,14 +111,10 @@ def main(catalog_path : str,
 
     catalog_manager.describe()
 
-    # collection_map[collection_id]
-
     for key, value in collection_map.items():
         print(f"Adding Collection: {key}")
         collection  = value.get("collection")
         items       = value.get("items", [])
-
-        # catalog_manager.describe()
 
         # Add collection as a child
         catalog_manager.add_child_collection(
@@ -130,9 +122,6 @@ def main(catalog_path : str,
             title=collection.title, 
             description=collection.description
         )
-
-        # catalog_manager.describe()
-        # catalog_manager.get_item_by_id(item.collection_id, "USGS_Seamless_DEM_1").to_dict()
 
         for item in items:
             print(f" > Adding Item ID '{item.id}' to collection ID '{item.collection_id}'")
@@ -145,9 +134,6 @@ def main(catalog_path : str,
                 ) 
             except Exception as e:
                 print(f"e:\n > '{e}'")
-                break
-                print()
-
         print()
 
     catalog_manager.describe()
