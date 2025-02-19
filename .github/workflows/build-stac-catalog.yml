@@ -1,0 +1,52 @@
+name: Build STAC Catalog
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-main-script:
+    runs-on: ubuntu-latest
+    env:
+      DEBUG: ${{ secrets.DEBUG }}
+      BASE_DIR: ${{ secrets.BASE_DIR }}
+      ROOT_STAC_DIR_NAME: ${{ secrets.ROOT_STAC_DIR_NAME }}
+      CATALOG_FILE_NAME: ${{ secrets.CATALOG_FILE_NAME }}
+      ROOT_CATALOG_ID: ${{ secrets.ROOT_CATALOG_ID }}
+      ROOT_CATALOG_TITLE: ${{ secrets.ROOT_CATALOG_TITLE }}
+      ROOT_CATALOG_DESCRIPTION: ${{ secrets.ROOT_CATALOG_DESCRIPTION }}
+      ELEVATION_SOURCES_DATA_URI: ${{ secrets.ELEVATION_SOURCES_DATA_URI }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run main script
+        run: python runners/main.py --verbose "True"
+      # - name: Run main script
+      #   run: python runners/main.py --catalog_path ${{ secrets.CATALOG_URI }} \
+      #   --catalog_id ${{ secrets.ROOT_CATALOG_ID }} \
+      #   --catalog_title ${{ secrets.ROOT_CATALOG_TITLE }} \
+      #   --catalog_description ${{ secrets.ROOT_CATALOG_DESCRIPTION }} \
+      #   --elevation_sources_path ${{ secrets.ELEVATION_SOURCES_DATA_URI }}
+
+      # - name: Save changes
+      #   run: |
+      #     git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      #     git config --global user.name "github-actions[bot]"
+      #     git add .
+      #     git commit -m "Update STAC catalog"
+      #     git push

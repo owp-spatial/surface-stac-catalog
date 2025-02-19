@@ -10,35 +10,30 @@ from stac_manager.data_models import STACCollectionSource, STACItemSource
 import pandas as pd
 import numpy as np 
 
-from runner.utils import get_collection_id_from_parts, get_highest_priority_asset_urls
+from runner.utils import get_collection_id_from_parts, get_highest_priority_asset_urls, remove_duplicates
 from runner.data_models import CatalogTableRecord
 from runner.constants import OWP_SPATIAL_S3_BUCKET_BASE, \
-    OWP_SPATIAL_S3_BUCKET_NAME, \
-    OWP_SPATIAL_SURFACE_NWS_EHYDRO_S3_BUCKET, \
-    OWP_SPATIAL_SURFACE_NWS_NOS_SURVEYS_S3_BUCKET, \
-    OWP_SPATIAL_SURFACE_NWS_TOPOBATHY_S3_BUCKET
-
+    OWP_SPATIAL_S3_BUCKET_NAME
 from runner.s3_bucket import S3Bucket
 from runner.remote_catalog_table import RemoteCatalogTable
 from runner.s3_data_cataloger import S3DataCataloger
  
-import config.settings as settings
+from config.config import Config as config
 
 # ----------------------------------------------------------------------------- 
 # ---- Elevation Sources Spatial S3 bucket data -----
 # ----------------------------------------------------------------------------- 
+def get_collection_map_from_remote_catalog(url:str = config.ELEVATION_SOURCES_DATA_URI) -> dict:
 
-def get_collection_map_from_remote_catalog(url:str = settings.ELEVATION_SOURCES_DATA_URI) -> dict:
-
+    # url = config.ELEVATION_SOURCES_DATA_URI
     remote_catalog=RemoteCatalogTable(url=url)
     elevation_sources = remote_catalog.get_catalog()    
 
-    # collection_id : {collection : STACCollectionSource, items : list[STACItemSource]}
+    # Stores key:values like so: 
+        # collection_id : {collection : STACCollectionSource, items : list[STACItemSource]}
     collection_map = {}
 
     for record in elevation_sources:
-        print(f"record: {record}")
-
         # Build collection ID
         collection_id = get_collection_id_from_parts(record.domain, record.region)
 
@@ -71,8 +66,6 @@ def get_collection_map_from_remote_catalog(url:str = settings.ELEVATION_SOURCES_
 
         collection_map[collection_id].get("items").extend(items)
 
-        print()
-    
     return collection_map
 
 # ----------------------------------------------------------------------------- 
@@ -97,10 +90,12 @@ def get_collection_map_from_remote_catalog(url:str = settings.ELEVATION_SOURCES_
 def main(catalog_path : str,
          catalog_id : str,
          catalog_title : str,
-         catalog_description : str
+         catalog_description : str,
+         elevation_sources_path : str,
+         verbose : bool = True
          ):
 
-    collection_map = get_collection_map_from_remote_catalog()
+    collection_map = get_collection_map_from_remote_catalog(elevation_sources_path)
 
     catalog_manager = CatalogManager(
         catalog_path=catalog_path,
@@ -109,10 +104,13 @@ def main(catalog_path : str,
         description = catalog_description
     )
 
-    catalog_manager.describe()
+    if verbose:
+        catalog_manager.describe()
 
     for key, value in collection_map.items():
-        print(f"Adding Collection: {key}")
+        if verbose:
+            print(f"Adding Collection: {key}")
+
         collection  = value.get("collection")
         items       = value.get("items", [])
 
@@ -124,7 +122,8 @@ def main(catalog_path : str,
         )
 
         for item in items:
-            print(f" > Adding Item ID '{item.id}' to collection ID '{item.collection_id}'")
+            if verbose:
+                print(f" > Adding Item ID '{item.id}' to collection ID '{item.collection_id}'")
 
             try:
                 catalog_manager.add_item_to_collection(
@@ -134,36 +133,29 @@ def main(catalog_path : str,
                 ) 
             except Exception as e:
                 print(f"e:\n > '{e}'")
-        print()
-
-    catalog_manager.describe()
-
+    
+    # save the catalog
     catalog_manager.save_catalog()
-    catalog_manager.describe()
+
+    if verbose:
+        catalog_manager.describe()
 
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser(description="Create or update a STAC catalog at the specified path.")
+    parser = argparse.ArgumentParser(description="Create or update a STAC catalog at the specified path.")
+    parser.add_argument("--catalog_path", type=str, default=config.CATALOG_URI, help="Path or URI for the STAC catalog")
+    parser.add_argument("--catalog_id", type=str, default=config.ROOT_CATALOG_ID, help="Root Catalog ID")
+    parser.add_argument("--catalog_title", type=str, default=config.ROOT_CATALOG_TITLE, help="Root Catalog Title")
+    parser.add_argument("--catalog_description", type=str, default=config.ROOT_CATALOG_DESCRIPTION, help="Root Catalog Description")
+    parser.add_argument("--elevation_sources_path", type=str, default=config.ELEVATION_SOURCES_DATA_URI, help="Path to the elevation sources data")
+    parser.add_argument("--verbose", action="store_true", default=True, help="Print verbose output")
 
-    # parser.add_argument("catalog_path", type=str, help="Path or URI for the STAC catalog")
-    # parser.add_argument("catalog_id", type=str, help="Root Catalog ID")
-    # parser.add_argument("catalog_title", type=str, help="Root Catalog Title")
-    # parser.add_argument("catalog_description", type=str, help="Root Catalog Description")
+    args = parser.parse_args()
 
-    # args = parser.parse_args()
-    # catalog_manager = CatalogManager(
-    #     catalog_path=settings.CATALOG_URI,
-    #     id=settings.ROOT_CATALOG_ID,
-    #     title=settings.ROOT_CATALOG_TITLE,
-    #     description=settings.ROOT_CATALOG_DESCRIPTION,
-    # )
-
-    catalog_path=settings.CATALOG_URI
-    catalog_id=settings.ROOT_CATALOG_ID
-    catalog_title=settings.ROOT_CATALOG_TITLE
-    catalog_description=settings.ROOT_CATALOG_DESCRIPTION
-    
-    main(catalog_path = catalog_path, 
-         catalog_id=catalog_id, 
-         catalog_title=catalog_title, 
-         catalog_description=catalog_description
-         )
+    main(
+        catalog_path=args.catalog_path,
+        catalog_id=args.catalog_id,
+        catalog_title=args.catalog_title,
+        catalog_description=args.catalog_description,
+        elevation_sources_path=args.elevation_sources_path,
+        verbose=args.verbose
+    )

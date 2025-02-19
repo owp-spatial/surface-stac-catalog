@@ -14,9 +14,6 @@ from runner.constants import ELEVATION_SOURCES_DATA_URI, DATA_FILE_EXTENSIONS
 def get_prefix_from_s3_dir(bucket_name :str, bucket_dir:str) -> str:
     """Given a bucket name and a directory in that bucket, get a string that can be used for searching via s3.list_objects_v2()"""
     
-    # bucket_name = OWP_SPATIAL_S3_BUCKET_NAME
-    # bucket_dir = OWP_SPATIAL_SURFACE_NWS_EHYDRO_S3_BUCKET
-
     dir_names = bucket_dir.replace("s3://", "").replace(bucket_name, "").split("/")
 
     return "/".join([i for i in dir_names if i])
@@ -37,7 +34,19 @@ def get_collection_list_from_catalog_table(df):
 
     return collections_list
 
+def remove_duplicates(lst):
+    """Remove duplicates from a list while preserving order."""
+    deduplicated = []
+
+    for item in lst:
+        if item not in deduplicated:
+            deduplicated.append(item)
+
+    return deduplicated
+
 def get_collection_id_from_parts(*parts):
+
+    # collection_id = "_".join(remove_duplicates([i for i in parts if i]))
     collection_id = "_".join([i for i in parts if i])
     return collection_id
 

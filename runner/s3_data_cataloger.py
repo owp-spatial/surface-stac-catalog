@@ -11,10 +11,7 @@ from dataclasses import dataclass
 import boto3
 
 from runner.constants import OWP_SPATIAL_S3_BUCKET_BASE, \
-    OWP_SPATIAL_S3_BUCKET_NAME, \
-    OWP_SPATIAL_SURFACE_NWS_EHYDRO_S3_BUCKET, \
-    OWP_SPATIAL_SURFACE_NWS_NOS_SURVEYS_S3_BUCKET, \
-    OWP_SPATIAL_SURFACE_NWS_TOPOBATHY_S3_BUCKET
+    OWP_SPATIAL_S3_BUCKET_NAME
 
 from runner.s3_bucket import S3Bucket
 
