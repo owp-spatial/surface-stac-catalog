@@ -25,7 +25,7 @@ jsonschema-specifications==2024.10.1
 kiwisolver
 locket==1.0.0
 netCDF4==1.7.2
-numpy==2.2.1
+numpy
 packaging==24.2
 pandas==2.2.3
 partd==1.4.2
