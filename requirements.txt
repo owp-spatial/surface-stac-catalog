@@ -34,7 +34,7 @@ pyarrow==19.0.1
 pyogrio==0.10.0
 pyparsing==3.2.1
 pyproj
-pystac==1.11.0
+pystac
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytz==2025.1
