@@ -43,7 +43,7 @@ rasterio==1.4.3
 referencing==0.36.1
 requests==2.32.3
 rio-stac==0.10.1
-rioxarray==0.18.2
+rioxarray
 rpds-py==0.22.3
 s3transfer==0.11.1
 shapely==2.0.6
