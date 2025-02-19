@@ -1,8 +1,8 @@
 affine==2.4.0
 attrs==24.3.0
 beautifulsoup4==4.13.2
-boto3==1.36.14
-botocore==1.36.14
+boto3
+botocore
 certifi==2024.12.14
 cftime==1.6.4.post1
 charset-normalizer==3.4.1
@@ -53,6 +53,6 @@ stac_manager @ git+https://github.com/owp-spatial/surface-stac-tools.git@3df4a2f
 toolz==1.0.0
 typing_extensions==4.12.2
 tzdata==2025.1
-urllib3==2.3.0
+urllib3
 xarray
 zipp==3.21.0
