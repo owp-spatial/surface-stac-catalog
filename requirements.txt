@@ -23,7 +23,7 @@ jmespath==1.0.1
 joblib==1.4.2
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
-kiwisolver==1.4.8
+kiwisolver
 locket==1.0.0
 matplotlib==3.10.0
 netCDF4==1.7.2
