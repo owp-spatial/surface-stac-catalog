@@ -33,8 +33,8 @@ jobs:
         uses: trundev/setup-gdal@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python -m osgeo_utils.samples.gdalinfo --formats
-        run: python -c "from osgeo import gdal; print(gdal.__name__)"
+        - run: python -m osgeo_utils.samples.gdalinfo --formats
+        - run: python -c "from osgeo import gdal; print(gdal.__name__)"
 
       - name: Install dependencies
         run: |
