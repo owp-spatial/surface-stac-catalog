@@ -28,13 +28,27 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.9"
-      
-      - name: Install GDAL
-        uses: trundev/setup-gdal@main
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        - run: python -m osgeo_utils.samples.gdalinfo --formats
-        - run: python -c "from osgeo import gdal; print(gdal.__name__)"
+
+      - name: Install Linux system dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libzmq3-dev libomp-dev
+          sudo apt-get install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev
+          sudo apt-get install -y -V ca-certificates lsb-release wget
+          wget https://apache.jfrog.io/artifactory/arrow/$(lsb_release --id --short | tr 'A-Z' 'a-z')/apache-arrow-apt-source-latest-$(lsb_release --codename --short).deb
+          sudo apt-get install -y -V ./apache-arrow-apt-source-latest-$(lsb_release --codename --short).deb
+          sudo apt-get update -y
+          sudo apt-get install -y -V \
+            libarrow-dev libarrow-glib-dev \
+            libarrow-dataset-dev libarrow-dataset-glib-dev \
+            libparquet-dev libparquet-glib-dev
+          sudo apt-get install -f -y
+
+      - name: Install macOS system dependencies
+        if: runner.os == 'macOS'
+        run: |
+          brew install --force --overwrite python zeromq gdal geos proj udunits apache-arrow
 
       - name: Install dependencies
         run: |
