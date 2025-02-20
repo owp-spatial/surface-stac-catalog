@@ -28,6 +28,13 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.9"
+      
+      - name: Install GDAL
+        uses: trundev/setup-gdal@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m osgeo_utils.samples.gdalinfo --formats
+        run: python -c "from osgeo import gdal; print(gdal.__name__)"
 
       - name: Install dependencies
         run: |
