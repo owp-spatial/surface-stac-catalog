@@ -25,7 +25,7 @@ jsonschema-specifications
 kiwisolver
 locket
 netCDF4
-numpy
+numpy==2.2.1
 packaging
 partd
 pillow
@@ -43,7 +43,7 @@ rasterio
 referencing
 requests
 rio-stac
-rioxarray
+rioxarray==1.4.3
 rpds-py
 s3transfer
 setuptools
