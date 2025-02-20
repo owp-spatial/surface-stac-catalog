@@ -7,10 +7,9 @@ import json
 from stac_manager.catalog_manager import CatalogManager
 from stac_manager.data_models import STACCollectionSource, STACItemSource
 
-import pandas as pd
 import numpy as np 
 
-from runner.utils import get_collection_id_from_parts, get_highest_priority_asset_urls, remove_duplicates
+from runner.utils import get_collection_map_from_remote_catalog
 from runner.data_models import CatalogTableRecord
 from runner.constants import OWP_SPATIAL_S3_BUCKET_BASE, \
     OWP_SPATIAL_S3_BUCKET_NAME
@@ -19,54 +18,6 @@ from runner.remote_catalog_table import RemoteCatalogTable
 from runner.s3_data_cataloger import S3DataCataloger
  
 from config.config import Config as config
-
-# ----------------------------------------------------------------------------- 
-# ---- Elevation Sources Spatial S3 bucket data -----
-# ----------------------------------------------------------------------------- 
-def get_collection_map_from_remote_catalog(url:str = config.ELEVATION_SOURCES_DATA_URI) -> dict:
-
-    # url = config.ELEVATION_SOURCES_DATA_URI
-    remote_catalog=RemoteCatalogTable(url=url)
-    elevation_sources = remote_catalog.get_catalog()    
-
-    # Stores key:values like so: 
-        # collection_id : {collection : STACCollectionSource, items : list[STACItemSource]}
-    collection_map = {}
-
-    for record in elevation_sources:
-        # Build collection ID
-        collection_id = get_collection_id_from_parts(record.domain, record.region)
-
-        # Add collection to map if it hasnt been added yet
-        if collection_id not in collection_map:
-            collection = STACCollectionSource(
-                id = collection_id,
-                title = f"{collection_id} title",
-                description= f"{collection_id} description"
-            )
-
-            collection_map[collection_id] = {"collection" : collection, "items" : []}
-        
-        # get URLs to map to items
-        urls = get_highest_priority_asset_urls(record.asset_urls if record.asset_urls else [record.source_url])
-
-        # get list of items for this record and put it in the items list for the collection 
-        items = [STACItemSource(
-                    collection_id=collection_id,
-                    id=basename(asset_url),
-                    data_path=asset_url,
-                    properties={key :  val for key, val in record.__dict__.items() if key in ["source", "resolution", 
-                                                                        "horizontal_crs", "vertical_datum",
-                                                                        "priority"
-                                                                        ]
-                                                                        }
-                                                                        )
-                    for asset_url in urls
-                    ]
-
-        collection_map[collection_id].get("items").extend(items)
-
-    return collection_map
 
 # ----------------------------------------------------------------------------- 
 # ---- Catalog data in OWP Spatial S3 bucket data -----
@@ -95,8 +46,10 @@ def main(catalog_path : str,
          verbose : bool = True
          ):
 
+    # Get the collection map from the remote catalog
     collection_map = get_collection_map_from_remote_catalog(elevation_sources_path)
 
+    # Create a catalog manager
     catalog_manager = CatalogManager(
         catalog_path=catalog_path,
         id=catalog_id,
@@ -107,6 +60,7 @@ def main(catalog_path : str,
     if verbose:
         catalog_manager.describe()
 
+    # Add collections and items to the catalog
     for key, value in collection_map.items():
         if verbose:
             print(f"Adding Collection: {key}")
@@ -121,6 +75,7 @@ def main(catalog_path : str,
             description=collection.description
         )
 
+        # Add items to the collection
         for item in items:
             if verbose:
                 print(f" > Adding Item ID '{item.id}' to collection ID '{item.collection_id}'")
@@ -134,7 +89,7 @@ def main(catalog_path : str,
             except Exception as e:
                 print(f"e:\n > '{e}'")
     
-    # save the catalog
+    # Save the catalog
     catalog_manager.save_catalog()
 
     if verbose:
