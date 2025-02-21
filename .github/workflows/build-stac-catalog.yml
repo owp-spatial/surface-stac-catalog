@@ -60,7 +60,7 @@ jobs:
         run: |
           python -m pip install --user -U pip
           python -m pip install numpy
-          GDAL_CONFIG=$(which gdal-config) python -m pip install --user --no-binary :all: rasterio gdal -r requirements.txt
+          GDAL_CONFIG=$(which gdal-config) python -m pip install --user --no-binary rasterio rasterio
 
       - name: Check installed packages
         run: pip list
@@ -68,7 +68,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt --verbose
+          pip install -r requirements.txt --no-binary --verbose
 
       - name: Check installed packages
         run: pip list
