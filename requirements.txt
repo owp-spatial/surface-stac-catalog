@@ -27,6 +27,7 @@ locket
 netCDF4
 numpy
 packaging
+pandas
 partd
 pillow
 pip
@@ -43,7 +44,7 @@ rasterio
 referencing
 requests
 rio-stac
-rioxarray==1.4.3
+rioxarray
 rpds-py
 s3transfer
 setuptools
