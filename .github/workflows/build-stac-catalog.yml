@@ -35,6 +35,7 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y libcurl4-openssl-dev libssl-dev libzmq3-dev libomp-dev
           sudo apt-get install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev
+          sudo apt-get install -y python3-dev build-essential
           sudo apt-get install -y -V ca-certificates lsb-release wget
           wget https://apache.jfrog.io/artifactory/arrow/$(lsb_release --id --short | tr 'A-Z' 'a-z')/apache-arrow-apt-source-latest-$(lsb_release --codename --short).deb
           sudo apt-get install -y -V ./apache-arrow-apt-source-latest-$(lsb_release --codename --short).deb
@@ -51,10 +52,19 @@ jobs:
           brew install --force --overwrite python zeromq gdal geos proj udunits apache-arrow
       - name: Find GDAL config
         run: which gdal-config
+
+      - name: Check GDAL version
+        run: gdal-config --version
+
       - name: Install rasterio and gdal
         run: |
           python -m pip install --user -U pip
+          python -m pip install numpy
           GDAL_CONFIG=$(which gdal-config) python -m pip install --user --no-binary rasterio rasterio
+
+      - name: Check installed packages
+        run: pip list
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -62,6 +72,7 @@ jobs:
 
       - name: Check installed packages
         run: pip list
+
       - name: Run main script
         run: python runner/main.py --verbose="True"
 
