@@ -1,0 +1,47 @@
+{
+  "type": "Collection",
+  "id": "tangier-sound_tangier-sound",
+  "stac_version": "1.0.0",
+  "description": "tangier-sound_tangier-sound description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Tangier_Sound_NOS_NCEI-002/Tangier_Sound_NOS_NCEI-002.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "tangier-sound_tangier-sound title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          388957.0,
+          4205960.0,
+          434662.0,
+          4246725.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:40:35.207591Z",
+          "2025-02-21T09:40:35.207591Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

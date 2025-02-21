@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "tbdem_conus_atlantic_gulf_30m",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -98.0005852000001,
+          24.46258518518534
+        ],
+        [
+          -98.0005852000001,
+          45.24898518518538
+        ],
+        [
+          -66.74898520000004,
+          45.24898518518538
+        ],
+        [
+          -66.74898520000004,
+          24.46258518518534
+        ],
+        [
+          -98.0005852000001,
+          24.46258518518534
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -98.0005852000001,
+    24.46258518518534,
+    -66.74898520000004,
+    45.24898518518538
+  ],
+  "properties": {
+    "source": "nws-topobathy",
+    "resolution": "30m",
+    "horizontal_crs": "",
+    "vertical_datum": "",
+    "priority": 1,
+    "proj:epsg": 4269,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -98.0005852000001,
+            24.46258518518534
+          ],
+          [
+            -66.74898520000004,
+            24.46258518518534
+          ],
+          [
+            -66.74898520000004,
+            45.24898518518538
+          ],
+          [
+            -98.0005852000001,
+            45.24898518518538
+          ],
+          [
+            -98.0005852000001,
+            24.46258518518534
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -98.0005852000001,
+      24.46258518518534,
+      -66.74898520000004,
+      45.24898518518538
+    ],
+    "proj:shape": [
+      23096,
+      34724
+    ],
+    "proj:transform": [
+      0.0009000000000000019,
+      0.0,
+      -98.0005852000001,
+      0.0,
+      -0.0009000000000000018,
+      45.24898518518538,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-02-21T09:40:38.239360Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_conus-atlantic-gulf title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_conus-atlantic-gulf title"
+    }
+  ],
+  "assets": {
+    "tbdem_conus_atlantic_gulf_30m": {
+      "href": "https://spatial-water-noaa.s3.amazonaws.com/surface/nws-topobathy/conus-atlantic-gulf/tbdem_conus_atlantic_gulf_30m.tif",
+      "type": "image/tiff",
+      "title": "tbdem_conus_atlantic_gulf_30m",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "conus-atlantic-gulf_conus-atlantic-gulf"
+}

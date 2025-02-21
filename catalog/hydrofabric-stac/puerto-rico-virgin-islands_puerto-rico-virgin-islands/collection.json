@@ -1,0 +1,67 @@
+{
+  "type": "Collection",
+  "id": "puerto-rico-virgin-islands_puerto-rico-virgin-islands",
+  "stac_version": "1.0.0",
+  "description": "puerto-rico-virgin-islands_puerto-rico-virgin-islands description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./crm_vol9_2023/crm_vol9_2023.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./prvi_dem/prvi_dem.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./AH_01_ARE_20111106_CS_2012_020/AH_01_ARE_20111106_CS_2012_020.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./AH_01_ARE_20130420_CS_2013_042/AH_01_ARE_20130420_CS_2013_042.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./tbdem_pr_usvi_30m/tbdem_pr_usvi_30m.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "puerto-rico-virgin-islands_puerto-rico-virgin-islands title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -68.00058,
+          17.000138888888888,
+          408795.0,
+          286435.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:35:42.619924Z",
+          "2025-02-21T09:35:50.283435Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

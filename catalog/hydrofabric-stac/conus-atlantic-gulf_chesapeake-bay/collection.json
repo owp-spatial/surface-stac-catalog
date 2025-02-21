@@ -1,0 +1,62 @@
+{
+  "type": "Collection",
+  "id": "conus-atlantic-gulf_chesapeake-bay",
+  "stac_version": "1.0.0",
+  "description": "conus-atlantic-gulf_chesapeake-bay description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./NCEI_ninth_Topobathy_2014_EPSG-4269/NCEI_ninth_Topobathy_2014_EPSG-4269.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NCEI_ninth_Topobathy_2014_EPSG-4269_1/NCEI_ninth_Topobathy_2014_EPSG-4269_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NCEI_third_Topobathy_2014_EPSG-4269_1/NCEI_third_Topobathy_2014_EPSG-4269_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NCEI_third_Topobathy_2014_EPSG-4269/NCEI_third_Topobathy_2014_EPSG-4269.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-atlantic-gulf_chesapeake-bay title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -152.00018518513133,
+          24.24944528156184,
+          -66.74944462753778,
+          61.25055555539489
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:36:31.796197Z",
+          "2025-02-21T09:36:31.830509Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

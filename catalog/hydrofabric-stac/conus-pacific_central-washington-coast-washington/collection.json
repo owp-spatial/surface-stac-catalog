@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_central-washington-coast-washington",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_central-washington-coast-washington description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./central_washington_13_navd88_2015/central_washington_13_navd88_2015.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./central_washington_13_navd88_2015/central_washington_13_navd88_2015.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_central-washington-coast-washington title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -125.250000000005,
+          47.14000000868,
+          -124.100000032205,
+          48.05999998292
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:39:30.932238Z",
+          "2025-02-21T09:39:35.546422Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

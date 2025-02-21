@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-atlantic-gulf_key-west",
+  "stac_version": "1.0.0",
+  "description": "conus-atlantic-gulf_key-west description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./key_west_13_mhw_2011/key_west_13_mhw_2011.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./key_west_13_mhw_2011/key_west_13_mhw_2011.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-atlantic-gulf_key-west title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -82.17999999999871,
+          23.980000000001294,
+          -81.27000000002418,
+          25.019999999972175
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:36:37.506276Z",
+          "2025-02-21T09:36:42.722427Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

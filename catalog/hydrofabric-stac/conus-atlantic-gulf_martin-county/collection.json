@@ -1,0 +1,47 @@
+{
+  "type": "Collection",
+  "id": "conus-atlantic-gulf_martin-county",
+  "stac_version": "1.0.0",
+  "description": "conus-atlantic-gulf_martin-county description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./FL_Martin_County_DEM_2016_EPSG-6438/FL_Martin_County_DEM_2016_EPSG-6438.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-atlantic-gulf_martin-county title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          753492.0,
+          933760.0,
+          956028.0,
+          1066040.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:37:18.972736Z",
+          "2025-02-21T09:37:18.972736Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

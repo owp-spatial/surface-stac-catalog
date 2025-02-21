@@ -1,0 +1,47 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_conus-pacific",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_conus-pacific description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./tbdem_conus_pacific_30m/tbdem_conus_pacific_30m.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_conus-pacific title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -125.25004565360759,
+          31.99959573704702,
+          -115.99987031218785,
+          49.200914575910964
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:40:39.979543Z",
+          "2025-02-21T09:40:39.979543Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_puget-sound-washington",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_puget-sound-washington description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Puget_Sound_CoNED_DEM_2020_EPSG-6339/Puget_Sound_CoNED_DEM_2020_EPSG-6339.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./puget_sound_13_navd88_2014/puget_sound_13_navd88_2014.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./puget_sound_13_navd88_2014/puget_sound_13_navd88_2014.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_puget-sound-washington title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -123.18000000000501,
+          47.010000016519996,
+          574580.0,
+          5433215.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:37:48.017323Z",
+          "2025-02-21T09:37:55.681113Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

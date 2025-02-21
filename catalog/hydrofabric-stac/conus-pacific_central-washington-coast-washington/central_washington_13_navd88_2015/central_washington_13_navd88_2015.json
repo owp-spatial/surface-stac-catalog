@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "central_washington_13_navd88_2015",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -125.250000000005,
+          47.14000000868
+        ],
+        [
+          -125.250000000005,
+          48.05999998292
+        ],
+        [
+          -124.100000032205,
+          48.05999998292
+        ],
+        [
+          -124.100000032205,
+          47.14000000868
+        ],
+        [
+          -125.250000000005,
+          47.14000000868
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -125.250000000005,
+    47.14000000868,
+    -124.100000032205,
+    48.05999998292
+  ],
+  "properties": {
+    "source": "ncei_ngdc",
+    "resolution": "10m",
+    "horizontal_crs": "WGS 1984",
+    "vertical_datum": "NAVD88",
+    "priority": 6,
+    "GDAL_AREA_OR_POINT": "Area",
+    "Conventions": "COARDS/CF-1.0",
+    "GDAL": "GDAL 2.1.0, released 2016/04/25",
+    "history": "Thu Aug 10 22:27:44 2017: GDAL CreateCopy( central_washington_13_navd88_2015.nc, ... )",
+    "title": "GDAL Band Number 1",
+    "GMT_version": "4.5.13 [64-bit]",
+    "node_offset": 1,
+    "DODS.strlen": 0,
+    "datetime": "2025-02-21T09:39:35.546422Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_central-washington-coast-washington title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_central-washington-coast-washington title"
+    }
+  ],
+  "assets": {
+    "central_washington_13_navd88_2015": {
+      "href": "https://www.ngdc.noaa.gov/thredds/dodsC/regional/central_washington_13_navd88_2015.nc",
+      "type": "application/netcdf",
+      "title": "central_washington_13_navd88_2015",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "conus-pacific_central-washington-coast-washington"
+}

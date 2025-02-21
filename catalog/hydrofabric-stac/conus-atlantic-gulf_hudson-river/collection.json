@@ -1,0 +1,47 @@
+{
+  "type": "Collection",
+  "id": "conus-atlantic-gulf_hudson-river",
+  "stac_version": "1.0.0",
+  "description": "conus-atlantic-gulf_hudson-river description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./hudson_river_m060h_30m/hudson_river_m060h_30m.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-atlantic-gulf_hudson-river title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          582147.7228078707,
+          4527513.91745288,
+          597777.7228078707,
+          4678413.91745288
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:37:22.341808Z",
+          "2025-02-21T09:37:22.341808Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

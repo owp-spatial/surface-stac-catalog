@@ -1,0 +1,1056 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "NCEI_third_Topobathy_2014_EPSG-4269_1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -151.2505555553949,
+          24.24944528156184
+        ],
+        [
+          -151.2505555553949,
+          61.25055555539489
+        ],
+        [
+          -80.49944605184402,
+          61.25055555539489
+        ],
+        [
+          -80.49944605184402,
+          24.24944528156184
+        ],
+        [
+          -151.2505555553949,
+          24.24944528156184
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -151.2505555553949,
+    24.24944528156184,
+    -80.49944605184402,
+    61.25055555539489
+  ],
+  "properties": {
+    "source": "ncei_cudem",
+    "resolution": "10m",
+    "horizontal_crs": "NAD 1983",
+    "vertical_datum": "NAVD88",
+    "priority": 4,
+    "proj:epsg": 5498,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -151.2505555553949,
+            24.24944528156184
+          ],
+          [
+            -80.49944605184402,
+            24.24944528156184
+          ],
+          [
+            -80.49944605184402,
+            61.25055555539489
+          ],
+          [
+            -151.2505555553949,
+            61.25055555539489
+          ],
+          [
+            -151.2505555553949,
+            24.24944528156184
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -151.2505555553949,
+      24.24944528156184,
+      -80.49944605184402,
+      61.25055555539489
+    ],
+    "proj:shape": [
+      399612,
+      764112
+    ],
+    "proj:transform": [
+      9.259259048876458e-05,
+      0.0,
+      -151.2505555553949,
+      0.0,
+      -9.259259049736507e-05,
+      61.25055555539489,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "vrt:source_count": 103,
+    "vrt:type": "mosaic",
+    "datetime": "2025-02-21T09:36:31.942762Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_southeast title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_southeast title"
+    }
+  ],
+  "assets": {
+    "vrt": {
+      "href": "https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/NCEI_third_Topobathy_2014_EPSG-4269_1.vrt",
+      "roles": [
+        "data",
+        "vrt"
+      ]
+    },
+    "NCEI_third_Topobathy_2014_EPSG-4269_1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/NCEI_third_Topobathy_2014_EPSG-4269_1.vrt",
+      "title": "Source NCEI_third_Topobathy_2014_EPSG-4269_1",
+      "description": "Source file NCEI_third_Topobathy_2014_EPSG-4269_1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n25x75_w082x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n25x75_w082x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n25x75_w082x25_2022v1",
+      "description": "Source file ncei13_n25x75_w082x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n24x50_w080x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n24x50_w080x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n24x50_w080x75_2022v1",
+      "description": "Source file ncei13_n24x50_w080x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n26x00_w082x25_2022v2": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n26x00_w082x25_2022v2.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n26x00_w082x25_2022v2",
+      "description": "Source file ncei13_n26x00_w082x25_2022v2 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n24x50_w081x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n24x50_w081x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n24x50_w081x25_2022v1",
+      "description": "Source file ncei13_n24x50_w081x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n24x50_w081x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n24x50_w081x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n24x50_w081x50_2022v1",
+      "description": "Source file ncei13_n24x50_w081x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n24x50_w081x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n24x50_w081x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n24x50_w081x75_2022v1",
+      "description": "Source file ncei13_n24x50_w081x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n24x50_w081x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n24x50_w081x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n24x50_w081x00_2022v1",
+      "description": "Source file ncei13_n24x50_w081x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n24x50_w082x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n24x50_w082x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n24x50_w082x00_2022v1",
+      "description": "Source file ncei13_n24x50_w082x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n24x75_w082x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n24x75_w082x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n24x75_w082x50_2022v1",
+      "description": "Source file ncei13_n24x75_w082x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n24x75_w080x75_2022v2": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n24x75_w080x75_2022v2.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n24x75_w080x75_2022v2",
+      "description": "Source file ncei13_n24x75_w080x75_2022v2 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n24x50_w082x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n24x50_w082x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n24x50_w082x50_2022v1",
+      "description": "Source file ncei13_n24x50_w082x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n24x50_w082x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n24x50_w082x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n24x50_w082x25_2022v1",
+      "description": "Source file ncei13_n24x50_w082x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n25x00_w082x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n25x00_w082x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n25x00_w082x00_2022v1",
+      "description": "Source file ncei13_n25x00_w082x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n25x25_w081x50_2022v2": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n25x25_w081x50_2022v2.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n25x25_w081x50_2022v2",
+      "description": "Source file ncei13_n25x25_w081x50_2022v2 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n25x00_w082x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n25x00_w082x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n25x00_w082x50_2022v1",
+      "description": "Source file ncei13_n25x00_w082x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n25x00_w082x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n25x00_w082x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n25x00_w082x25_2022v1",
+      "description": "Source file ncei13_n25x00_w082x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n25x25_w081x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n25x25_w081x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n25x25_w081x75_2022v1",
+      "description": "Source file ncei13_n25x25_w081x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n25x25_w082x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n25x25_w082x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n25x25_w082x00_2022v1",
+      "description": "Source file ncei13_n25x25_w082x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n25x50_w081x50_2022v2": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n25x50_w081x50_2022v2.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n25x50_w081x50_2022v2",
+      "description": "Source file ncei13_n25x50_w081x50_2022v2 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n25x50_w081x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n25x50_w081x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n25x50_w081x75_2022v1",
+      "description": "Source file ncei13_n25x50_w081x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n25x75_w082x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n25x75_w082x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n25x75_w082x00_2022v1",
+      "description": "Source file ncei13_n25x75_w082x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n25x75_w081x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./FL/ncei13_n25x75_w081x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n25x75_w081x75_2022v1",
+      "description": "Source file ncei13_n25x75_w081x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n61x25_w151x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n61x25_w151x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n61x25_w151x00_2022v1",
+      "description": "Source file ncei13_n61x25_w151x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n61x25_w151x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n61x25_w151x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n61x25_w151x25_2022v1",
+      "description": "Source file ncei13_n61x25_w151x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n54x75_w132x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n54x75_w132x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n54x75_w132x00_2022v1",
+      "description": "Source file ncei13_n54x75_w132x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n54x75_w132x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n54x75_w132x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n54x75_w132x25_2022v1",
+      "description": "Source file ncei13_n54x75_w132x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n54x75_w132x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n54x75_w132x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n54x75_w132x50_2022v1",
+      "description": "Source file ncei13_n54x75_w132x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n54x75_w132x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n54x75_w132x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n54x75_w132x75_2022v1",
+      "description": "Source file ncei13_n54x75_w132x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n54x75_w133x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n54x75_w133x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n54x75_w133x00_2022v1",
+      "description": "Source file ncei13_n54x75_w133x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n54x75_w133x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n54x75_w133x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n54x75_w133x25_2022v1",
+      "description": "Source file ncei13_n54x75_w133x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n54x75_w133x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n54x75_w133x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n54x75_w133x50_2022v1",
+      "description": "Source file ncei13_n54x75_w133x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n54x75_w133x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n54x75_w133x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n54x75_w133x75_2022v1",
+      "description": "Source file ncei13_n54x75_w133x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n54x75_w134x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n54x75_w134x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n54x75_w134x00_2022v1",
+      "description": "Source file ncei13_n54x75_w134x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x00_w132x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x00_w132x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x00_w132x00_2022v1",
+      "description": "Source file ncei13_n55x00_w132x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x00_w132x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x00_w132x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x00_w132x25_2022v1",
+      "description": "Source file ncei13_n55x00_w132x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x00_w132x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x00_w132x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x00_w132x50_2022v1",
+      "description": "Source file ncei13_n55x00_w132x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x00_w132x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x00_w132x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x00_w132x75_2022v1",
+      "description": "Source file ncei13_n55x00_w132x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x00_w133x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x00_w133x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x00_w133x00_2022v1",
+      "description": "Source file ncei13_n55x00_w133x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x00_w133x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x00_w133x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x00_w133x25_2022v1",
+      "description": "Source file ncei13_n55x00_w133x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x00_w133x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x00_w133x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x00_w133x50_2022v1",
+      "description": "Source file ncei13_n55x00_w133x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x00_w133x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x00_w133x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x00_w133x75_2022v1",
+      "description": "Source file ncei13_n55x00_w133x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x00_w134x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x00_w134x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x00_w134x00_2022v1",
+      "description": "Source file ncei13_n55x00_w134x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x25_w132x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x25_w132x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x25_w132x00_2022v1",
+      "description": "Source file ncei13_n55x25_w132x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x25_w132x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x25_w132x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x25_w132x25_2022v1",
+      "description": "Source file ncei13_n55x25_w132x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x25_w132x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x25_w132x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x25_w132x50_2022v1",
+      "description": "Source file ncei13_n55x25_w132x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x25_w132x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x25_w132x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x25_w132x75_2022v1",
+      "description": "Source file ncei13_n55x25_w132x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x25_w133x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x25_w133x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x25_w133x00_2022v1",
+      "description": "Source file ncei13_n55x25_w133x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x25_w133x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x25_w133x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x25_w133x25_2022v1",
+      "description": "Source file ncei13_n55x25_w133x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x25_w133x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x25_w133x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x25_w133x50_2022v1",
+      "description": "Source file ncei13_n55x25_w133x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x25_w133x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x25_w133x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x25_w133x75_2022v1",
+      "description": "Source file ncei13_n55x25_w133x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x25_w134x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x25_w134x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x25_w134x00_2022v1",
+      "description": "Source file ncei13_n55x25_w134x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x50_w132x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x50_w132x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x50_w132x00_2022v1",
+      "description": "Source file ncei13_n55x50_w132x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x50_w132x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x50_w132x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x50_w132x25_2022v1",
+      "description": "Source file ncei13_n55x50_w132x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x50_w132x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x50_w132x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x50_w132x50_2022v1",
+      "description": "Source file ncei13_n55x50_w132x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x50_w132x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x50_w132x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x50_w132x75_2022v1",
+      "description": "Source file ncei13_n55x50_w132x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x50_w133x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x50_w133x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x50_w133x00_2022v1",
+      "description": "Source file ncei13_n55x50_w133x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x50_w133x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x50_w133x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x50_w133x25_2022v1",
+      "description": "Source file ncei13_n55x50_w133x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x50_w133x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x50_w133x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x50_w133x50_2022v1",
+      "description": "Source file ncei13_n55x50_w133x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x50_w133x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x50_w133x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x50_w133x75_2022v1",
+      "description": "Source file ncei13_n55x50_w133x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x50_w134x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x50_w134x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x50_w134x00_2022v1",
+      "description": "Source file ncei13_n55x50_w134x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x75_w132x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x75_w132x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x75_w132x00_2022v1",
+      "description": "Source file ncei13_n55x75_w132x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x75_w132x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x75_w132x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x75_w132x25_2022v1",
+      "description": "Source file ncei13_n55x75_w132x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x75_w132x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x75_w132x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x75_w132x50_2022v1",
+      "description": "Source file ncei13_n55x75_w132x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x75_w132x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x75_w132x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x75_w132x75_2022v1",
+      "description": "Source file ncei13_n55x75_w132x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x75_w133x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x75_w133x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x75_w133x00_2022v1",
+      "description": "Source file ncei13_n55x75_w133x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x75_w133x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x75_w133x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x75_w133x25_2022v1",
+      "description": "Source file ncei13_n55x75_w133x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x75_w133x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x75_w133x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x75_w133x50_2022v1",
+      "description": "Source file ncei13_n55x75_w133x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x75_w133x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x75_w133x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x75_w133x75_2022v1",
+      "description": "Source file ncei13_n55x75_w133x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n55x75_w134x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n55x75_w134x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n55x75_w134x00_2022v1",
+      "description": "Source file ncei13_n55x75_w134x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x00_w132x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x00_w132x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x00_w132x00_2022v1",
+      "description": "Source file ncei13_n56x00_w132x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x00_w132x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x00_w132x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x00_w132x25_2022v1",
+      "description": "Source file ncei13_n56x00_w132x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x00_w132x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x00_w132x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x00_w132x50_2022v1",
+      "description": "Source file ncei13_n56x00_w132x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x00_w132x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x00_w132x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x00_w132x75_2022v1",
+      "description": "Source file ncei13_n56x00_w132x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x00_w133x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x00_w133x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x00_w133x00_2022v1",
+      "description": "Source file ncei13_n56x00_w133x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x00_w133x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x00_w133x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x00_w133x25_2022v1",
+      "description": "Source file ncei13_n56x00_w133x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x00_w133x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x00_w133x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x00_w133x50_2022v1",
+      "description": "Source file ncei13_n56x00_w133x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x00_w133x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x00_w133x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x00_w133x75_2022v1",
+      "description": "Source file ncei13_n56x00_w133x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x00_w134x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x00_w134x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x00_w134x00_2022v1",
+      "description": "Source file ncei13_n56x00_w134x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x25_w132x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x25_w132x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x25_w132x00_2022v1",
+      "description": "Source file ncei13_n56x25_w132x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x25_w132x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x25_w132x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x25_w132x25_2022v1",
+      "description": "Source file ncei13_n56x25_w132x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x25_w132x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x25_w132x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x25_w132x50_2022v1",
+      "description": "Source file ncei13_n56x25_w132x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x25_w132x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x25_w132x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x25_w132x75_2022v1",
+      "description": "Source file ncei13_n56x25_w132x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x25_w133x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x25_w133x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x25_w133x00_2022v1",
+      "description": "Source file ncei13_n56x25_w133x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x25_w133x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x25_w133x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x25_w133x25_2022v1",
+      "description": "Source file ncei13_n56x25_w133x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x25_w133x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x25_w133x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x25_w133x50_2022v1",
+      "description": "Source file ncei13_n56x25_w133x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x25_w133x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x25_w133x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x25_w133x75_2022v1",
+      "description": "Source file ncei13_n56x25_w133x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x25_w134x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x25_w134x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x25_w134x00_2022v1",
+      "description": "Source file ncei13_n56x25_w134x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x50_w132x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x50_w132x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x50_w132x00_2022v1",
+      "description": "Source file ncei13_n56x50_w132x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x50_w132x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x50_w132x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x50_w132x25_2022v1",
+      "description": "Source file ncei13_n56x50_w132x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x50_w132x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x50_w132x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x50_w132x50_2022v1",
+      "description": "Source file ncei13_n56x50_w132x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x50_w132x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x50_w132x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x50_w132x75_2022v1",
+      "description": "Source file ncei13_n56x50_w132x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x50_w133x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x50_w133x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x50_w133x00_2022v1",
+      "description": "Source file ncei13_n56x50_w133x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x50_w133x25_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x50_w133x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x50_w133x25_2022v1",
+      "description": "Source file ncei13_n56x50_w133x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x50_w133x50_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x50_w133x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x50_w133x50_2022v1",
+      "description": "Source file ncei13_n56x50_w133x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x50_w133x75_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x50_w133x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x50_w133x75_2022v1",
+      "description": "Source file ncei13_n56x50_w133x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n56x50_w134x00_2022v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./AK/ncei13_n56x50_w134x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n56x50_w134x00_2022v1",
+      "description": "Source file ncei13_n56x50_w134x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n43x75_w124x75_2021v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./OR/ncei13_n43x75_w124x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n43x75_w124x75_2021v1",
+      "description": "Source file ncei13_n43x75_w124x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n44x00_w124x75_2021v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./OR/ncei13_n44x00_w124x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n44x00_w124x75_2021v1",
+      "description": "Source file ncei13_n44x00_w124x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n44x25_w124x50_2021v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./OR/ncei13_n44x25_w124x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n44x25_w124x50_2021v1",
+      "description": "Source file ncei13_n44x25_w124x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n44x50_w124x50_2021v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./OR/ncei13_n44x50_w124x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n44x50_w124x50_2021v1",
+      "description": "Source file ncei13_n44x50_w124x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n44x75_w124x50_2021v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./OR/ncei13_n44x75_w124x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n44x75_w124x50_2021v1",
+      "description": "Source file ncei13_n44x75_w124x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n45x00_w124x50_2021v1": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster2/elevation/NCEI_third_Topobathy_2014_8580/./OR/ncei13_n45x00_w124x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n45x00_w124x50_2021v1",
+      "description": "Source file ncei13_n45x00_w124x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    }
+  },
+  "collection": "conus-atlantic-gulf_southeast"
+}

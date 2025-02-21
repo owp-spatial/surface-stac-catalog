@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "tbdem_pr_usvi_30m",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.00058,
+          17.24949000000001
+        ],
+        [
+          -68.00058,
+          19.000440000000008
+        ],
+        [
+          -64.24947,
+          19.000440000000008
+        ],
+        [
+          -64.24947,
+          17.24949000000001
+        ],
+        [
+          -68.00058,
+          17.24949000000001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -68.00058,
+    17.24949000000001,
+    -64.24947,
+    19.000440000000008
+  ],
+  "properties": {
+    "source": "nws-topobathy",
+    "resolution": "30m",
+    "horizontal_crs": "",
+    "vertical_datum": "",
+    "priority": 1,
+    "proj:epsg": 4326,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -68.00058,
+            17.24949000000001
+          ],
+          [
+            -64.24947,
+            17.24949000000001
+          ],
+          [
+            -64.24947,
+            19.000440000000008
+          ],
+          [
+            -68.00058,
+            19.000440000000008
+          ],
+          [
+            -68.00058,
+            17.24949000000001
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -68.00058,
+      17.24949000000001,
+      -64.24947,
+      19.000440000000008
+    ],
+    "proj:shape": [
+      6485,
+      13893
+    ],
+    "proj:transform": [
+      0.0002699999999999998,
+      0.0,
+      -68.00058,
+      0.0,
+      -0.00026999999999999995,
+      19.000440000000008,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-02-21T09:35:50.283435Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_puerto-rico-virgin-islands title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_puerto-rico-virgin-islands title"
+    }
+  ],
+  "assets": {
+    "tbdem_pr_usvi_30m": {
+      "href": "https://spatial-water-noaa.s3.amazonaws.com/surface/nws-topobathy/puerto-rico-virgin-islands/tbdem_pr_usvi_30m.tif",
+      "type": "image/tiff",
+      "title": "tbdem_pr_usvi_30m",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "puerto-rico-virgin-islands_puerto-rico-virgin-islands"
+}

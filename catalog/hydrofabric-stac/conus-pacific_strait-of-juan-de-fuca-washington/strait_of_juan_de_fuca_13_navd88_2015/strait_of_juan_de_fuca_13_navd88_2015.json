@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "strait_of_juan_de_fuca_13_navd88_2015",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -125.11999998068501,
+          48.04
+        ],
+        [
+          -125.11999998068501,
+          48.719999980960004
+        ],
+        [
+          -123.520000025485,
+          48.719999980960004
+        ],
+        [
+          -123.520000025485,
+          48.04
+        ],
+        [
+          -125.11999998068501,
+          48.04
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -125.11999998068501,
+    48.04,
+    -123.520000025485,
+    48.719999980960004
+  ],
+  "properties": {
+    "source": "ncei_ngdc",
+    "resolution": "10m",
+    "horizontal_crs": "WGS 1984",
+    "vertical_datum": "NAVD88",
+    "priority": 6,
+    "GDAL_AREA_OR_POINT": "Area",
+    "Conventions": "COARDS/CF-1.0",
+    "GDAL": "GDAL 2.1.0, released 2016/04/25",
+    "history": "Thu Aug 10 22:28:43 2017: GDAL CreateCopy( strait_of_juan_de_fuca_13_navd88_2015.nc, ... )",
+    "title": "GDAL Band Number 1",
+    "GMT_version": "4.5.13 [64-bit]",
+    "node_offset": 1,
+    "DODS.strlen": 0,
+    "datetime": "2025-02-21T09:37:42.410412Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_strait-of-juan-de-fuca-washington title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_strait-of-juan-de-fuca-washington title"
+    }
+  ],
+  "assets": {
+    "strait_of_juan_de_fuca_13_navd88_2015": {
+      "href": "https://www.ngdc.noaa.gov/thredds/dodsC/regional/strait_of_juan_de_fuca_13_navd88_2015.nc",
+      "type": "application/netcdf",
+      "title": "strait_of_juan_de_fuca_13_navd88_2015",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "conus-pacific_strait-of-juan-de-fuca-washington"
+}

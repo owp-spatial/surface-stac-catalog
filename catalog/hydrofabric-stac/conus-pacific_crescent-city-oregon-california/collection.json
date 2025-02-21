@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_crescent-city-oregon-california",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_crescent-city-oregon-california description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./crescent_city_13_navd88_2010/crescent_city_13_navd88_2010.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./crescent_city_13_navd88_2010/crescent_city_13_navd88_2010.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_crescent-city-oregon-california title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -125.250000000005,
+          41.419999999999995,
+          -123.880000038365,
+          42.529999968919995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:38:51.303017Z",
+          "2025-02-21T09:38:55.984069Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

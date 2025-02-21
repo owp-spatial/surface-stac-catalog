@@ -1,0 +1,274 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "NCEI_third_Topobathy_USVI_EPSG-4269",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -65.25055555555979,
+          17.249444444398133
+        ],
+        [
+          -65.25055555555979,
+          18.75055555555978
+        ],
+        [
+          -64.24944444441496,
+          18.75055555555978
+        ],
+        [
+          -64.24944444441496,
+          17.249444444398133
+        ],
+        [
+          -65.25055555555979,
+          17.249444444398133
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -65.25055555555979,
+    17.249444444398133,
+    -64.24944444441496,
+    18.75055555555978
+  ],
+  "properties": {
+    "source": "ncei_cudem",
+    "resolution": "10m",
+    "horizontal_crs": "NAD83",
+    "vertical_datum": "VIVD09",
+    "priority": 2,
+    "proj:epsg": null,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -65.25055555555979,
+            17.249444444398133
+          ],
+          [
+            -64.24944444441496,
+            17.249444444398133
+          ],
+          [
+            -64.24944444441496,
+            18.75055555555978
+          ],
+          [
+            -65.25055555555979,
+            18.75055555555978
+          ],
+          [
+            -65.25055555555979,
+            17.249444444398133
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -65.25055555555979,
+      17.249444444398133,
+      -64.24944444441496,
+      18.75055555555978
+    ],
+    "proj:shape": [
+      16212,
+      10812
+    ],
+    "proj:transform": [
+      9.259259259570995e-05,
+      0.0,
+      -65.25055555555979,
+      0.0,
+      -9.259259259570995e-05,
+      18.75055555555978,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:wkt2": "COMPD_CS[\"NAD83 + VIVD09 height\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4269\"]],VERT_CS[\"VIVD09 height\",VERT_DATUM[\"Virgin Islands Vertical Datum of 2009\",2005,AUTHORITY[\"EPSG\",\"1124\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"6642\"]]]",
+    "vrt:source_count": 16,
+    "vrt:type": "mosaic",
+    "datetime": "2025-02-21T09:35:39.730293Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_virgin-islands title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_virgin-islands title"
+    }
+  ],
+  "assets": {
+    "vrt": {
+      "href": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/NCEI_third_Topobathy_USVI_EPSG-4269.vrt",
+      "roles": [
+        "data",
+        "vrt"
+      ]
+    },
+    "NCEI_third_Topobathy_USVI_EPSG-4269": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/NCEI_third_Topobathy_USVI_EPSG-4269.vrt",
+      "title": "Source NCEI_third_Topobathy_USVI_EPSG-4269",
+      "description": "Source file NCEI_third_Topobathy_USVI_EPSG-4269 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n17x50_w064x50_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n17x50_w064x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n17x50_w064x50_2022v1",
+      "description": "Source file ncei13_n17x50_w064x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n17x50_w064x75_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n17x50_w064x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n17x50_w064x75_2022v1",
+      "description": "Source file ncei13_n17x50_w064x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n17x50_w065x00_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n17x50_w065x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n17x50_w065x00_2022v1",
+      "description": "Source file ncei13_n17x50_w065x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n17x50_w065x25_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n17x50_w065x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n17x50_w065x25_2022v1",
+      "description": "Source file ncei13_n17x50_w065x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n17x75_w064x50_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n17x75_w064x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n17x75_w064x50_2022v1",
+      "description": "Source file ncei13_n17x75_w064x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n17x75_w065x25_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n17x75_w065x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n17x75_w065x25_2022v1",
+      "description": "Source file ncei13_n17x75_w065x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x00_w064x50_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n18x00_w064x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x00_w064x50_2022v1",
+      "description": "Source file ncei13_n18x00_w064x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x00_w065x25_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n18x00_w065x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x00_w065x25_2022v1",
+      "description": "Source file ncei13_n18x00_w065x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x25_w064x50_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n18x25_w064x50_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x25_w064x50_2022v1",
+      "description": "Source file ncei13_n18x25_w064x50_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x25_w064x75_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n18x25_w064x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x25_w064x75_2022v1",
+      "description": "Source file ncei13_n18x25_w064x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x25_w065x00_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n18x25_w065x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x25_w065x00_2022v1",
+      "description": "Source file ncei13_n18x25_w065x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x25_w065x25_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n18x25_w065x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x25_w065x25_2022v1",
+      "description": "Source file ncei13_n18x25_w065x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x75_w064x75_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n18x75_w064x75_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x75_w064x75_2022v1",
+      "description": "Source file ncei13_n18x75_w064x75_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x75_w065x00_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n18x75_w065x00_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x75_w065x00_2022v1",
+      "description": "Source file ncei13_n18x75_w065x00_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x75_w065x25_2022v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_USVI_9528/./ncei13_n18x75_w065x25_2022v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x75_w065x25_2022v1",
+      "description": "Source file ncei13_n18x75_w065x25_2022v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    }
+  },
+  "collection": "puerto-rico-virgin-islands_virgin-islands"
+}

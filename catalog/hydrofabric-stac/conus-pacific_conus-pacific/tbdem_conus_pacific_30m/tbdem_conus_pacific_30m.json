@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "tbdem_conus_pacific_30m",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -125.25004565360759,
+          31.99959573704702
+        ],
+        [
+          -125.25004565360759,
+          49.200914575910964
+        ],
+        [
+          -115.99987031218785,
+          49.200914575910964
+        ],
+        [
+          -115.99987031218785,
+          31.99959573704702
+        ],
+        [
+          -125.25004565360759,
+          31.99959573704702
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -125.25004565360759,
+    31.99959573704702,
+    -115.99987031218785,
+    49.200914575910964
+  ],
+  "properties": {
+    "source": "nws-topobathy",
+    "resolution": "30m",
+    "horizontal_crs": "",
+    "vertical_datum": "",
+    "priority": 1,
+    "proj:epsg": 4326,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -125.25004565360759,
+            31.99959573704702
+          ],
+          [
+            -115.99987031218785,
+            31.99959573704702
+          ],
+          [
+            -115.99987031218785,
+            49.200914575910964
+          ],
+          [
+            -125.25004565360759,
+            49.200914575910964
+          ],
+          [
+            -125.25004565360759,
+            31.99959573704702
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -125.25004565360759,
+      31.99959573704702,
+      -115.99987031218785,
+      49.200914575910964
+    ],
+    "proj:shape": [
+      51510,
+      27700
+    ],
+    "proj:transform": [
+      0.00033394134806569436,
+      0.0,
+      -125.25004565360759,
+      0.0,
+      -0.0003339413480656949,
+      49.200914575910964,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-02-21T09:40:39.979543Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_conus-pacific title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_conus-pacific title"
+    }
+  ],
+  "assets": {
+    "tbdem_conus_pacific_30m": {
+      "href": "https://spatial-water-noaa.s3.amazonaws.com/surface/nws-topobathy/conus-pacific/tbdem_conus_pacific_30m.tif",
+      "type": "image/tiff",
+      "title": "tbdem_conus_pacific_30m",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "conus-pacific_conus-pacific"
+}

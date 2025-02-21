@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-atlantic-gulf_south-florida",
+  "stac_version": "1.0.0",
+  "description": "conus-atlantic-gulf_south-florida description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./southern_florida_F010_2018/southern_florida_F010_2018.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./southern_florida_F010_2018/southern_florida_F010_2018.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-atlantic-gulf_south-florida title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -82.13009260041001,
+          24.400000039200002,
+          -80.01000006718,
+          26.162962952800005
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:36:47.855846Z",
+          "2025-02-21T09:36:52.843578Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

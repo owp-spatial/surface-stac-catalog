@@ -1,0 +1,130 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "Tangier_Sound_NOS_NCEI-002",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          388957.0,
+          4205960.0
+        ],
+        [
+          388957.0,
+          4246725.0
+        ],
+        [
+          434662.0,
+          4246725.0
+        ],
+        [
+          434662.0,
+          4205960.0
+        ],
+        [
+          388957.0,
+          4205960.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    388957.0,
+    4205960.0,
+    434662.0,
+    4246725.0
+  ],
+  "properties": {
+    "source": "nws-nos-surveys",
+    "resolution": "",
+    "horizontal_crs": "",
+    "vertical_datum": "",
+    "priority": 1,
+    "proj:epsg": null,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            388957.0,
+            4205960.0
+          ],
+          [
+            434662.0,
+            4205960.0
+          ],
+          [
+            434662.0,
+            4246725.0
+          ],
+          [
+            388957.0,
+            4246725.0
+          ],
+          [
+            388957.0,
+            4205960.0
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      388957.0,
+      4205960.0,
+      434662.0,
+      4246725.0
+    ],
+    "proj:shape": [
+      40765,
+      45705
+    ],
+    "proj:transform": [
+      1.0,
+      0.0,
+      388957.0,
+      0.0,
+      -1.0,
+      4246725.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:wkt2": "COMPD_CS[\"NAD83(2011) / UTM zone 18N + MSL height\",PROJCS[\"NAD83(2011) / UTM zone 18N\",GEOGCS[\"NAD83(2011)\",DATUM[\"NAD83_National_Spatial_Reference_System_2011\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1116\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"6318\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-75],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"6347\"]],VERT_CS[\"MSL height\",VERT_DATUM[\"Mean Sea Level\",2005,AUTHORITY[\"EPSG\",\"5100\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"5714\"]]]",
+    "datetime": "2025-02-21T09:40:35.207591Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "tangier-sound_tangier-sound title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "tangier-sound_tangier-sound title"
+    }
+  ],
+  "assets": {
+    "Tangier_Sound_NOS_NCEI-002": {
+      "href": "https://spatial-water-noaa.s3.amazonaws.com/surface/nws-nos-surveys/tangier-sound/Tangier_Sound_NOS_NCEI-002.tif",
+      "type": "image/tiff",
+      "title": "Tangier_Sound_NOS_NCEI-002",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "tangier-sound_tangier-sound"
+}

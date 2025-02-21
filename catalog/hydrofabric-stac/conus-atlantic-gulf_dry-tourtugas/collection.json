@@ -1,0 +1,47 @@
+{
+  "type": "Collection",
+  "id": "conus-atlantic-gulf_dry-tourtugas",
+  "stac_version": "1.0.0",
+  "description": "conus-atlantic-gulf_dry-tourtugas description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./FL_DryTortugas_NGS_DEM_2015_EPSG-26917/FL_DryTortugas_NGS_DEM_2015_EPSG-26917.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-atlantic-gulf_dry-tourtugas title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          301931.065,
+          2716895.765,
+          321015.065,
+          2736587.765
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:37:33.177549Z",
+          "2025-02-21T09:37:33.177549Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

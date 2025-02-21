@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_port-townsend-washington",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_port-townsend-washington description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./port_townsend_13_navd88_2011/port_townsend_13_navd88_2011.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./port_townsend_13_navd88_2011/port_townsend_13_navd88_2011.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_port-townsend-washington title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -123.620000000005,
+          47.91,
+          -122.200000039765,
+          48.78999997536
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:39:19.160484Z",
+          "2025-02-21T09:39:24.774217Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

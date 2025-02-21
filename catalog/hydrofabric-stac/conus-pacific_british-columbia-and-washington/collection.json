@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_british-columbia-and-washington",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_british-columbia-and-washington description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./british_columbia_3_msl_2013/british_columbia_3_msl_2013.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./british_columbia_3_msl_2013/british_columbia_3_msl_2013.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_british-columbia-and-washington title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -137.4499999970135,
+          48.0500000000015,
+          -122.20000000311349,
+          54.1999999975415
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:40:22.806167Z",
+          "2025-02-21T09:40:27.106776Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

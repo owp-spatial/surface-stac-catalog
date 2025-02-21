@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "prvi_dem",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28735.0,
+          172375.0
+        ],
+        [
+          28735.0,
+          286435.0
+        ],
+        [
+          408795.0,
+          286435.0
+        ],
+        [
+          408795.0,
+          172375.0
+        ],
+        [
+          28735.0,
+          172375.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    28735.0,
+    172375.0,
+    408795.0,
+    286435.0
+  ],
+  "properties": {
+    "source": "usgs_3dep",
+    "resolution": "10m",
+    "horizontal_crs": "NAD83",
+    "vertical_datum": "MSL",
+    "priority": 4,
+    "proj:epsg": 32161,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            28735.0,
+            172375.0
+          ],
+          [
+            408795.0,
+            172375.0
+          ],
+          [
+            408795.0,
+            286435.0
+          ],
+          [
+            28735.0,
+            286435.0
+          ],
+          [
+            28735.0,
+            172375.0
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      28735.0,
+      172375.0,
+      408795.0,
+      286435.0
+    ],
+    "proj:shape": [
+      11406,
+      38006
+    ],
+    "proj:transform": [
+      10.0,
+      0.0,
+      28735.0,
+      0.0,
+      -10.0,
+      286435.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-02-21T09:35:45.812767Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_puerto-rico-virgin-islands title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_puerto-rico-virgin-islands title"
+    }
+  ],
+  "assets": {
+    "prvi_dem": {
+      "href": "https://lynker-spatial.s3-us-west-2.amazonaws.com/gridded-resources/prvi_dem.tif",
+      "type": "image/tiff",
+      "title": "prvi_dem",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "puerto-rico-virgin-islands_puerto-rico-virgin-islands"
+}

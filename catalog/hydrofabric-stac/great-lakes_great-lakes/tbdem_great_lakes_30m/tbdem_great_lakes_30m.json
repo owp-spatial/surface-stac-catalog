@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "tbdem_great_lakes_30m",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -89.0016666668826,
+          40.99842342343676
+        ],
+        [
+          -89.0016666668826,
+          47.00166666668
+        ],
+        [
+          -78.99842342363935,
+          47.00166666668
+        ],
+        [
+          -78.99842342363935,
+          40.99842342343676
+        ],
+        [
+          -89.0016666668826,
+          40.99842342343676
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -89.0016666668826,
+    40.99842342343676,
+    -78.99842342363935,
+    47.00166666668
+  ],
+  "properties": {
+    "source": "nws-topobathy",
+    "resolution": "",
+    "horizontal_crs": "",
+    "vertical_datum": "",
+    "priority": 1,
+    "proj:epsg": 4269,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -89.0016666668826,
+            40.99842342343676
+          ],
+          [
+            -78.99842342363935,
+            40.99842342343676
+          ],
+          [
+            -78.99842342363935,
+            47.00166666668
+          ],
+          [
+            -89.0016666668826,
+            47.00166666668
+          ],
+          [
+            -89.0016666668826,
+            40.99842342343676
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -89.0016666668826,
+      40.99842342343676,
+      -78.99842342363935,
+      47.00166666668
+    ],
+    "proj:shape": [
+      22212,
+      37012
+    ],
+    "proj:transform": [
+      0.0002702702702702703,
+      0.0,
+      -89.0016666668826,
+      0.0,
+      -0.0002702702702702703,
+      47.00166666668,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-02-21T09:40:41.498597Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "great-lakes_great-lakes title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "great-lakes_great-lakes title"
+    }
+  ],
+  "assets": {
+    "tbdem_great_lakes_30m": {
+      "href": "https://spatial-water-noaa.s3.amazonaws.com/surface/nws-topobathy/great-lakes/tbdem_great_lakes_30m.tif",
+      "type": "image/tiff",
+      "title": "tbdem_great_lakes_30m",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "great-lakes_great-lakes"
+}

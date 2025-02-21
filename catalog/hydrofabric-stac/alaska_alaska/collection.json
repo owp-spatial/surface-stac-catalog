@@ -1,0 +1,47 @@
+{
+  "type": "Collection",
+  "id": "alaska_alaska",
+  "stac_version": "1.0.0",
+  "description": "alaska_alaska description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./tbdem_alaska_30m/tbdem_alaska_30m.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "alaska_alaska title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -42944.99999998254,
+          957509.9999999711,
+          743115.0000000175,
+          1375139.9999999711
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:40:36.769749Z",
+          "2025-02-21T09:40:36.769749Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

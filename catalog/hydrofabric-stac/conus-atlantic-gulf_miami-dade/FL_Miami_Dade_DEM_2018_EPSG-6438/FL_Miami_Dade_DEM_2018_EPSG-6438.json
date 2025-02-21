@@ -1,0 +1,147 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "FL_Miami_Dade_DEM_2018_EPSG-6438",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          699999.999937579,
+          384999.9997199889
+        ],
+        [
+          699999.999937579,
+          598749.9997199889
+        ],
+        [
+          946249.999937579,
+          598749.9997199889
+        ],
+        [
+          946249.999937579,
+          384999.9997199889
+        ],
+        [
+          699999.999937579,
+          384999.9997199889
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    699999.999937579,
+    384999.9997199889,
+    946249.999937579,
+    598749.9997199889
+  ],
+  "properties": {
+    "source": "miami_dade_itd",
+    "resolution": "1.5m",
+    "horizontal_crs": "NAD 1983 (NSRS2007)",
+    "vertical_datum": "NAVD88",
+    "priority": 9,
+    "proj:epsg": 6438,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            699999.999937579,
+            384999.9997199889
+          ],
+          [
+            946249.999937579,
+            384999.9997199889
+          ],
+          [
+            946249.999937579,
+            598749.9997199889
+          ],
+          [
+            699999.999937579,
+            598749.9997199889
+          ],
+          [
+            699999.999937579,
+            384999.9997199889
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      699999.999937579,
+      384999.9997199889,
+      946249.999937579,
+      598749.9997199889
+    ],
+    "proj:shape": [
+      42750,
+      49250
+    ],
+    "proj:transform": [
+      5.0,
+      0.0,
+      699999.999937579,
+      0.0,
+      -5.0,
+      598749.9997199889,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "vrt:source_count": 2,
+    "vrt:type": "mosaic",
+    "datetime": "2025-02-21T09:37:20.345320Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_miami-dade title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_miami-dade title"
+    }
+  ],
+  "assets": {
+    "vrt": {
+      "href": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/FL_Miami_Dade_DEM_2018_9272/FL_Miami_Dade_DEM_2018_EPSG-6438.vrt",
+      "roles": [
+        "data",
+        "vrt"
+      ]
+    },
+    "FL_Miami_Dade_DEM_2018_EPSG-6438": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/FL_Miami_Dade_DEM_2018_9272/FL_Miami_Dade_DEM_2018_EPSG-6438.vrt",
+      "title": "Source FL_Miami_Dade_DEM_2018_EPSG-6438",
+      "description": "Source file FL_Miami_Dade_DEM_2018_EPSG-6438 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "FL_Miami_Dade_DEM_2018_9272": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/FL_Miami_Dade_DEM_2018_9272/./FL_Miami_Dade_DEM_2018_9272.tif",
+      "type": "image/tiff",
+      "title": "Source FL_Miami_Dade_DEM_2018_9272",
+      "description": "Source file FL_Miami_Dade_DEM_2018_9272 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    }
+  },
+  "collection": "conus-atlantic-gulf_miami-dade"
+}

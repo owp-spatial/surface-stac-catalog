@@ -1,0 +1,4170 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "CoNED_Juan_de_Fuca_DEM_2021_EPSG-6339",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          354375.0,
+          5322600.0
+        ],
+        [
+          354375.0,
+          5376600.0
+        ],
+        [
+          484875.0,
+          5376600.0
+        ],
+        [
+          484875.0,
+          5322600.0
+        ],
+        [
+          354375.0,
+          5322600.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    354375.0,
+    5322600.0,
+    484875.0,
+    5376600.0
+  ],
+  "properties": {
+    "source": "coned",
+    "resolution": "1m",
+    "horizontal_crs": "NAD 1983 (2011) UTM Zone 10N",
+    "vertical_datum": "NAVD88",
+    "priority": 1,
+    "proj:epsg": 6339,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            354375.0,
+            5322600.0
+          ],
+          [
+            484875.0,
+            5322600.0
+          ],
+          [
+            484875.0,
+            5376600.0
+          ],
+          [
+            354375.0,
+            5376600.0
+          ],
+          [
+            354375.0,
+            5322600.0
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      354375.0,
+      5322600.0,
+      484875.0,
+      5376600.0
+    ],
+    "proj:shape": [
+      54000,
+      130500
+    ],
+    "proj:transform": [
+      1.0,
+      0.0,
+      354375.0,
+      0.0,
+      -1.0,
+      5376600.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "vrt:source_count": 449,
+    "vrt:type": "mosaic",
+    "datetime": "2025-02-21T09:37:35.494654Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_strait-of-juan-de-fuca-washington title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_strait-of-juan-de-fuca-washington title"
+    }
+  ],
+  "assets": {
+    "vrt": {
+      "href": "https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/CoNED_Juan_de_Fuca_DEM_2021_EPSG-6339.vrt",
+      "roles": [
+        "data",
+        "vrt"
+      ]
+    },
+    "CoNED_Juan_de_Fuca_DEM_2021_EPSG-6339": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/CoNED_Juan_de_Fuca_DEM_2021_EPSG-6339.vrt",
+      "title": "Source CoNED_Juan_de_Fuca_DEM_2021_EPSG-6339",
+      "description": "Source file CoNED_Juan_de_Fuca_DEM_2021_EPSG-6339 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_01_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_01_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_01_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_01_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_06_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_06_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_06_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_06_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_07_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_07_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_07_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_07_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_11_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_11_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_11_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_11_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_12_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_12_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_12_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_12_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_01": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_01.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_01",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_01 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_02": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_02.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_02",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_04": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_04.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_04",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_04 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_03": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_03.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_03",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_03 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_05": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_05.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_05",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_05 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_13_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_13_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_13_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_13_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_13": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_13.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_13",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_13 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_11": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_11.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_11",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_11 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_12": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_12.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_12",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_12 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_08": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_08.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_08",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_08 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_09": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_09.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_09",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_09 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_07": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_07.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_07",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_07 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_10": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_10.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_10",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_10 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_14": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_14.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_14",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_14 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_21": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_21.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_21",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_21 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_18": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_18.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_18",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_18 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_20": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_20.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_20",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_20 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_19": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_19.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_19",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_19 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_22": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_22.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_22",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_22 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_24": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_24.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_24",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_24 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_26": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_26.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_26",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_26 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_27": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_27.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_27",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_27 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_28": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_28.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_28",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_28 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_32": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_32.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_32",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_32 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_29": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_29.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_29",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_29 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_14_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_14_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_14_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_14_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_02_06": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_02_06.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_02_06",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_02_06 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_16": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_16.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_16",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_16 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_03_17": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_03_17.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_03_17",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_03_17 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_04_23": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_04_23.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_04_23",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_04_23 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_05_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_05_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_05_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_05_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_08_15": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_08_15.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_08_15",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_08_15 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_09_25": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_09_25.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_09_25",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_09_25 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_31": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_31.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_31",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_31 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "Juan_de_Fuca_CoNED_TBDEM_1m_10_30": {
+      "href": "/vsicurl/https://chs.coast.noaa.gov/htdata/raster5/elevation/CoNED_Juan_de_Fuca_DEM_2021_9347/./Juan_de_Fuca_CoNED_TBDEM_1m_10_30.tif",
+      "type": "image/tiff",
+      "title": "Source Juan_de_Fuca_CoNED_TBDEM_1m_10_30",
+      "description": "Source file Juan_de_Fuca_CoNED_TBDEM_1m_10_30 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    }
+  },
+  "collection": "conus-pacific_strait-of-juan-de-fuca-washington"
+}

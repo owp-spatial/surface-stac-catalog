@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "port_san_luis_13_navd88_2011",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -121.3000925925935,
+          34.5999074074085
+        ],
+        [
+          -121.3000925925935,
+          35.6999074122485
+        ],
+        [
+          -120.45009258885351,
+          35.6999074122485
+        ],
+        [
+          -120.45009258885351,
+          34.5999074074085
+        ],
+        [
+          -121.3000925925935,
+          34.5999074074085
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -121.3000925925935,
+    34.5999074074085,
+    -120.45009258885351,
+    35.6999074122485
+  ],
+  "properties": {
+    "source": "USGS NED topography; NOAA Coastal Services Center Coastal IfSAR; NOAA Coastal Services Center Coastal Lidar; NGDC Multibeam Bathymetry Database; CSUMB Multibeam Swath Sonar Surveys; NOS Hydrographic Surveys; Topographic LiDAR data for San Luis Obispo breakwater",
+    "resolution": "10m",
+    "horizontal_crs": "WGS 1984",
+    "vertical_datum": "NAVD88",
+    "priority": 6,
+    "GDAL_AREA_OR_POINT": "Area",
+    "Conventions": "ACDD 1.3, CF-1.6",
+    "GDAL": "GDAL 1.11.4, released 2016/01/25",
+    "history": "Tue Jul 26 17:53:08 2016: GDAL CreateCopy( /nfs/metadata_working/DEM/port_san_luis_public_navd88.nc, ... )",
+    "title": "Port San Luis, California Coastal Digital Elevation Model",
+    "GMT_version": "4.5.13 [64-bit]",
+    "node_offset": 1,
+    "summary": "NOAA's National Geophysical Data Center (NGDC) is building high-resolution digital elevation models (DEMs) for select U.S. coastal regions. These integrated bathymetric-topographic DEMs are used to support tsunami forecasting and warning efforts at the NOAA Center for Tsunami Research, Pacific Marine Environmental Laboratory (PMEL). The DEMs are part of the tsunami forecast system SIFT (Short-term Inundation Forecasting for Tsunamis) currently being developed by PMEL for the NOAA Tsunami Warning Centers, and are used in the MOST (Method of Splitting Tsunami) model developed by PMEL to simulate tsunami generation, propagation, and inundation. Bathymetric, topographic, and shoreline data used in DEM compilation are obtained from various sources, including NGDC, the U.S. National Ocean Service (NOS), the U.S. Geological Survey (USGS), the U.S. Army Corps of Engineers (USACE), the Federal Emergency Management Agency (FEMA), and other federal, state, and local; government agencies, academic institutions, and private companies. DEMs are referenced to the vertical tidal datum of Mean High Water (MHW) and horizontal datum of World Geodetic System 1984 (WGS84). Grid spacings for the DEMs range from 1/3 arc-second (~10 meters) to 3 arc-seconds (~90 meters).",
+    "keywords": "Earth Science > Oceans > Bathymetry/Seafloor Topography > Seafloor Topography; Earth Science > Oceans > Bathymetry/Seafloor Topography > Bathymetry; Earth Science > Oceans > Bathymetry/Seafloor Topography > Water Depth; Earth Science > Land Surface > Topography > Terrain Elevation; Earth Science > Land Surface > Topography > Topographical Relief Maps; Earth Science > Oceans > Coastal Processes > Coastal Elevation; DEM > Digital Elevation Model; H: 1 meter - < 30 meters; V: < 1 meter; Coastal Relief; Gridded elevations; Integrated bathymetry and topography",
+    "time_coverage_start": "1933-01-01",
+    "time_coverage_end": "2008-01-01",
+    "id": "3164",
+    "naming_authority": "gov.noaa.ngdc.mgg.dem",
+    "comment": "Developed for the Pacific Marine Environmental Laboratory (PMEL), NOAA Center for Tsunami Research program in support of NOAA's tsunami forecasting and warning efforts.",
+    "license": "Not to be used for navigation. Although these data are of high quality and useful for planning and modeling purposes, they are not suitable for navigation. For navigation, please refer to the NOS nautical chart series.; Produced by the NOAA National Geophysical Data Center. Not subject to copyright protection within the United States.; While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.",
+    "creator_name": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce; publisher; DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce; Boulder; Colorado; publisher; DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce; originator; Citation URL; http://www.ngdc.noaa.gov/dem/squareCellGrid/download/3164; Port San Luis, CA 1/3 arc-second Tsunami Inundation DEM; Download page for accessing DEM, metadata record and development report.; download; Citation URL; http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html; NOAA Tsunami Inundation Gridding Project; Project web page.; information",
+    "creator_email": "dem.info@noaa.gov",
+    "creator_url": "http://www.ngdc.noaa.gov/mgg/dem",
+    "project": "ICSU-WDS > International Council for Science - World Data System",
+    "geospatial_bounds_crs": "World Geodetic System 1984",
+    "geospatial_bounds_vertical_crs": "North American Vertical Datum 1988",
+    "publisher_name": "NOAA National Center for Environmental Information",
+    "publisher_email": "dem.info@noaa.gov",
+    "publisher_url": "http://www.ngdc.noaa.gov/mgg/dem",
+    "geospatial_lat_min": "34.60",
+    "geospatial_lat_max": "35.70",
+    "geospatial_lon_min": "-121.30",
+    "geospatial_lon_max": "-120.45",
+    "cdm_data_type": "Grid",
+    "date_issued": "2011-05-20; publication",
+    "date_metadata_modified": "2016-07-28",
+    "product_version": "Second",
+    "keywords_vocabulary": "CF Standard Name Table v27",
+    "references": "Digital Elevation Model of Port San Luis, California: Procedures, Data Sources, and Analysis",
+    "creator_type": "group or institution",
+    "creator_institution": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce; publisher; DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce; Boulder; Colorado; publisher; DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce; originator; Citation URL; http://www.ngdc.noaa.gov/dem/squareCellGrid/download/3164; Port San Luis, CA 1/3 arc-second Tsunami Inundation DEM; Download page for accessing DEM, metadata record and development report.; download; Citation URL; http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html; NOAA Tsunami Inundation Gridding Project; Project web page.; information",
+    "publisher_type": "institution",
+    "geospatial_lat_units": "decimal degrees",
+    "geospatial_lon_units": "decimal degrees",
+    "geospatial_lon_resolution": "0.00009259259",
+    "geospatial_lat_resolution": "0.00009259259",
+    "geospatial_vertical_resolution": "0.00009259259",
+    "DODS.strlen": 0,
+    "datetime": "2025-02-21T09:40:06.987726Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_port-san-luis-california title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_port-san-luis-california title"
+    }
+  ],
+  "assets": {
+    "port_san_luis_13_navd88_2011": {
+      "href": "https://www.ngdc.noaa.gov/thredds/dodsC/regional/port_san_luis_13_navd88_2011.nc",
+      "type": "application/netcdf",
+      "title": "port_san_luis_13_navd88_2011",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "conus-pacific_port-san-luis-california"
+}

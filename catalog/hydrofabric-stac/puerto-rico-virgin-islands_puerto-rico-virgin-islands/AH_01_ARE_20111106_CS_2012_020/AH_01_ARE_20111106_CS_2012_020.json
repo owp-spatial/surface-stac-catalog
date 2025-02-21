@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "AH_01_ARE_20111106_CS_2012_020",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -66.70699416592575,
+          18.477815544651012
+        ],
+        [
+          -66.70699416592575,
+          18.480815544651012
+        ],
+        [
+          -66.70099416592575,
+          18.480815544651012
+        ],
+        [
+          -66.70099416592575,
+          18.477815544651012
+        ],
+        [
+          -66.70699416592575,
+          18.477815544651012
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -66.70699416592575,
+    18.477815544651012,
+    -66.70099416592575,
+    18.480815544651012
+  ],
+  "properties": {
+    "source": "nws-ehydro",
+    "resolution": "",
+    "horizontal_crs": "",
+    "vertical_datum": "",
+    "priority": 1,
+    "proj:epsg": 6349,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -66.70699416592575,
+            18.477815544651012
+          ],
+          [
+            -66.70099416592575,
+            18.477815544651012
+          ],
+          [
+            -66.70099416592575,
+            18.480815544651012
+          ],
+          [
+            -66.70699416592575,
+            18.480815544651012
+          ],
+          [
+            -66.70699416592575,
+            18.477815544651012
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -66.70699416592575,
+      18.477815544651012,
+      -66.70099416592575,
+      18.480815544651012
+    ],
+    "proj:shape": [
+      1,
+      2
+    ],
+    "proj:transform": [
+      0.0030000000000001137,
+      0.0,
+      -66.70699416592575,
+      0.0,
+      -0.0030000000000001137,
+      18.480815544651012,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-02-21T09:35:47.352964Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_puerto-rico-virgin-islands title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_puerto-rico-virgin-islands title"
+    }
+  ],
+  "assets": {
+    "AH_01_ARE_20111106_CS_2012_020": {
+      "href": "https://spatial-water-noaa.s3.amazonaws.com/surface/nws-ehydro/puerto-rico-virgin-islands/AH_01_ARE_20111106_CS_2012_020.tif",
+      "type": "image/tiff",
+      "title": "AH_01_ARE_20111106_CS_2012_020",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "puerto-rico-virgin-islands_puerto-rico-virgin-islands"
+}

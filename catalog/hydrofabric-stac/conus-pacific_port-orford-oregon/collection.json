@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_port-orford-oregon",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_port-orford-oregon description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./port_orford_13_mhw_2008/port_orford_13_mhw_2008.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./port_orford_13_mhw_2008/port_orford_13_mhw_2008.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_port-orford-oregon title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -124.970000000005,
+          42.529999999999994,
+          -124.13000002352501,
+          43.72999996639999
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:39:10.028953Z",
+          "2025-02-21T09:39:14.314424Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

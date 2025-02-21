@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "southern_florida_F010_2018",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -82.13009260041001,
+          24.400000039200002
+        ],
+        [
+          -82.13009260041001,
+          26.162962952800005
+        ],
+        [
+          -80.01000006718,
+          26.162962952800005
+        ],
+        [
+          -80.01000006718,
+          24.400000039200002
+        ],
+        [
+          -82.13009260041001,
+          24.400000039200002
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -82.13009260041001,
+    24.400000039200002,
+    -80.01000006718,
+    26.162962952800005
+  ],
+  "properties": {
+    "source": "ncei_ngdc",
+    "resolution": "10m",
+    "horizontal_crs": "WGS 1984",
+    "vertical_datum": "MLLW",
+    "priority": 4,
+    "Conventions": "COARDS/CF-1.0",
+    "title": "GDAL Band Number 1",
+    "history": "grdreformat -f0x,1y,2f south_florida_mllw_vers2.nc t.nc",
+    "GMT_version": "4.5.13 [64-bit]",
+    "node_offset": 1,
+    "datetime": "2025-02-21T09:36:52.843578Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_south-florida title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_south-florida title"
+    }
+  ],
+  "assets": {
+    "southern_florida_F010_2018": {
+      "href": "https://www.ngdc.noaa.gov/thredds/dodsC/regional/southern_florida_F010_2018.nc",
+      "type": "application/netcdf",
+      "title": "southern_florida_F010_2018",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "conus-atlantic-gulf_south-florida"
+}

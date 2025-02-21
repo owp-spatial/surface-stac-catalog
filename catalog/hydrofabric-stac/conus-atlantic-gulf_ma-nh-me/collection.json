@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-atlantic-gulf_ma-nh-me",
+  "stac_version": "1.0.0",
+  "description": "conus-atlantic-gulf_ma-nh-me description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./NCEI_ninth_Topobathy_2014_EPSG-4269/NCEI_ninth_Topobathy_2014_EPSG-4269.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NCEI_ninth_Topobathy_2014_EPSG-4269_1/NCEI_ninth_Topobathy_2014_EPSG-4269_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-atlantic-gulf_ma-nh-me title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -152.00018518513133,
+          24.499815110707374,
+          -66.74981304462172,
+          60.75018518513132
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:36:35.107381Z",
+          "2025-02-21T09:36:35.122688Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

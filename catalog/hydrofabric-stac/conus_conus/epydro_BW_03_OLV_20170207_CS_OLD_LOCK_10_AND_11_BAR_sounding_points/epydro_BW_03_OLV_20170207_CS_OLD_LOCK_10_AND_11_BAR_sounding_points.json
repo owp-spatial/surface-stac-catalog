@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "epydro_BW_03_OLV_20170207_CS_OLD_LOCK_10_AND_11_BAR_sounding_points",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          779361.5596251325,
+          1161716.365258339
+        ],
+        [
+          779361.5596251325,
+          1162799.804210336
+        ],
+        [
+          781447.4832384777,
+          1162799.804210336
+        ],
+        [
+          781447.4832384777,
+          1161716.365258339
+        ],
+        [
+          779361.5596251325,
+          1161716.365258339
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    779361.5596251325,
+    1161716.365258339,
+    781447.4832384777,
+    1162799.804210336
+  ],
+  "properties": {
+    "source": "nws-ehydro",
+    "resolution": "",
+    "horizontal_crs": "",
+    "vertical_datum": "",
+    "priority": 1,
+    "proj:epsg": 5070,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            779361.5596251325,
+            1161716.365258339
+          ],
+          [
+            781447.4832384777,
+            1161716.365258339
+          ],
+          [
+            781447.4832384777,
+            1162799.804210336
+          ],
+          [
+            779361.5596251325,
+            1162799.804210336
+          ],
+          [
+            779361.5596251325,
+            1161716.365258339
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      779361.5596251325,
+      1161716.365258339,
+      781447.4832384777,
+      1162799.804210336
+    ],
+    "proj:shape": [
+      36,
+      70
+    ],
+    "proj:transform": [
+      29.79890876207501,
+      0.0,
+      779361.5596251325,
+      0.0,
+      -30.095526444357045,
+      1162799.804210336,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-02-21T09:40:33.329903Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus_conus title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus_conus title"
+    }
+  ],
+  "assets": {
+    "epydro_BW_03_OLV_20170207_CS_OLD_LOCK_10_AND_11_BAR_sounding_points": {
+      "href": "https://spatial-water-noaa.s3.amazonaws.com/surface/nws-ehydro/conus/epydro_BW_03_OLV_20170207_CS_OLD_LOCK_10_AND_11_BAR_sounding_points.tif",
+      "type": "image/tiff",
+      "title": "epydro_BW_03_OLV_20170207_CS_OLD_LOCK_10_AND_11_BAR_sounding_points",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "conus_conus"
+}

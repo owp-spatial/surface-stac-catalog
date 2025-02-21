@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-atlantic-gulf_central-florida",
+  "stac_version": "1.0.0",
+  "description": "conus-atlantic-gulf_central-florida description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./central_florida_13_mhw_2014/central_florida_13_mhw_2014.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./central_florida_13_mhw_2014/central_florida_13_mhw_2014.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-atlantic-gulf_central-florida title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -80.87999999999872,
+          27.270000032761292,
+          -79.95000000002476,
+          28.880000032716215
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:37:10.194974Z",
+          "2025-02-21T09:37:14.746339Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

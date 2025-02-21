@@ -1,0 +1,47 @@
+{
+  "type": "Collection",
+  "id": "conus-atlantic-gulf_miami-dade",
+  "stac_version": "1.0.0",
+  "description": "conus-atlantic-gulf_miami-dade description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./FL_Miami_Dade_DEM_2018_EPSG-6438/FL_Miami_Dade_DEM_2018_EPSG-6438.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-atlantic-gulf_miami-dade title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          699999.999937579,
+          384999.9997199889,
+          946249.999937579,
+          598749.9997199889
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:37:20.345320Z",
+          "2025-02-21T09:37:20.345320Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

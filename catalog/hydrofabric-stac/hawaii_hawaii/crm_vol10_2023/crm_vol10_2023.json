@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "crm_vol10_2023",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -160.99986111116166,
+          18.000139028931667
+        ],
+        [
+          -160.99986111116166,
+          22.999861111161664
+        ],
+        [
+          -153.50013909893167,
+          22.999861111161664
+        ],
+        [
+          -153.50013909893167,
+          18.000139028931667
+        ],
+        [
+          -160.99986111116166,
+          18.000139028931667
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -160.99986111116166,
+    18.000139028931667,
+    -153.50013909893167,
+    22.999861111161664
+  ],
+  "properties": {
+    "source": "ncei_crm",
+    "resolution": "30m",
+    "horizontal_crs": "WGS84",
+    "vertical_datum": "MSL",
+    "priority": 3,
+    "GDAL_AREA_OR_POINT": "Area",
+    "GDAL_TIFFTAG_COPYRIGHT": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce",
+    "GDAL_TIFFTAG_IMAGEDESCRIPTION": "Topography-Bathymetry; LMSL",
+    "Conventions": "CF-1.5",
+    "GDAL": "GDAL 3.5.0, released 2022/05/10",
+    "NCO": "netCDF Operators version 5.0.6 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)",
+    "node_offset": 1,
+    "DODS.strlen": 0,
+    "datetime": "2025-02-21T09:35:56.523134Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hawaii_hawaii title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hawaii_hawaii title"
+    }
+  ],
+  "assets": {
+    "crm_vol10_2023": {
+      "href": "https://www.ngdc.noaa.gov/thredds/dodsC/crm/cudem/crm_vol10_2023.nc",
+      "type": "application/netcdf",
+      "title": "crm_vol10_2023",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "hawaii_hawaii"
+}

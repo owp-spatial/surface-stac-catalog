@@ -1,0 +1,411 @@
+{
+  "type": "Catalog",
+  "id": "hf-surfaces-catalog",
+  "stac_version": "1.0.0",
+  "description": "A STAC catalog containing diverse hydrologic surfaces",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./puerto-rico-virgin-islands_puerto-rico/collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_puerto-rico title"
+    },
+    {
+      "rel": "child",
+      "href": "./puerto-rico-virgin-islands_virgin-islands/collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_virgin-islands title"
+    },
+    {
+      "rel": "child",
+      "href": "./puerto-rico-virgin-islands_puerto-rico-virgin-islands/collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_puerto-rico-virgin-islands title"
+    },
+    {
+      "rel": "child",
+      "href": "./hawaii_hawaii/collection.json",
+      "type": "application/json",
+      "title": "hawaii_hawaii title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_chesapeake-bay-mobile-bay-albemarle-sound-tangier-sound/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_chesapeake-bay-mobile-bay-albemarle-sound-tangier-sound title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_florida/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_florida title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_carolinas/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_carolinas title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_texas/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_texas title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_la-ms/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_la-ms title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_al-nwfl/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_al-nwfl title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_north-carolina/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_north-carolina title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_chesapeake-bay/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_chesapeake-bay title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_northeast-sandy/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_northeast-sandy title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_rima/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_rima title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_southeast/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_southeast title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_ma-nh-me/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_ma-nh-me title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_key-west/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_key-west title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_south-florida/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_south-florida title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_palm-beach/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_palm-beach title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_central-florida/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_central-florida title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_nj-de/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_nj-de title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_new-england/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_new-england title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_louisiana/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_louisiana title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_martin-county/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_martin-county title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_miami-dade/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_miami-dade title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_hudson-river/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_hudson-river title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_atlantic-gulf/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_atlantic-gulf title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_southwest/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_southwest title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_dry-tourtugas/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_dry-tourtugas title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_strait-of-juan-de-fuca-washington/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_strait-of-juan-de-fuca-washington title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_puget-sound-washington/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_puget-sound-washington title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_northern-california/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_northern-california title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_central-california/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_central-california title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_southern-california/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_southern-california title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_british-columbia/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_british-columbia title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_vancouver-island/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_vancouver-island title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_san-francisco-california/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_san-francisco-california title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_outer-coast-washington/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_outer-coast-washington title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_central-oregon-coast-oregon/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_central-oregon-coast-oregon title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_astoria-washington-oregon/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_astoria-washington-oregon title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_crescent-city-oregon-california/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_crescent-city-oregon-california title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_garibaldi-oregon/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_garibaldi-oregon title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_port-orford-oregon/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_port-orford-oregon title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_port-townsend-washington/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_port-townsend-washington title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_central-washington-coast-washington/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_central-washington-coast-washington title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_eureka-california/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_eureka-california title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_fort-bragg-california/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_fort-bragg-california title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_port-san-luis-california/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_port-san-luis-california title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_san-diego-california/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_san-diego-california title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_san-francisco-bay-delta-estuary-california/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_san-francisco-bay-delta-estuary-california title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_columbia-river-oregon/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_columbia-river-oregon title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_coos-bay-oregon/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_coos-bay-oregon title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_duncan-area-washington/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_duncan-area-washington title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_duncan-area-british-columbia/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_duncan-area-british-columbia title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_seattle-washington/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_seattle-washington title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_grays-harbor-washington/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_grays-harbor-washington title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_british-columbia-and-washington/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_british-columbia-and-washington title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus_conus/collection.json",
+      "type": "application/json",
+      "title": "conus_conus title"
+    },
+    {
+      "rel": "child",
+      "href": "./albemarle-sound_albemarle-sound/collection.json",
+      "type": "application/json",
+      "title": "albemarle-sound_albemarle-sound title"
+    },
+    {
+      "rel": "child",
+      "href": "./chesapeake-bay_chesapeake-bay/collection.json",
+      "type": "application/json",
+      "title": "chesapeake-bay_chesapeake-bay title"
+    },
+    {
+      "rel": "child",
+      "href": "./mobile-bay_mobile-bay/collection.json",
+      "type": "application/json",
+      "title": "mobile-bay_mobile-bay title"
+    },
+    {
+      "rel": "child",
+      "href": "./tangier-sound_tangier-sound/collection.json",
+      "type": "application/json",
+      "title": "tangier-sound_tangier-sound title"
+    },
+    {
+      "rel": "child",
+      "href": "./alaska_alaska/collection.json",
+      "type": "application/json",
+      "title": "alaska_alaska title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-atlantic-gulf_conus-atlantic-gulf/collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_conus-atlantic-gulf title"
+    },
+    {
+      "rel": "child",
+      "href": "./conus-pacific_conus-pacific/collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_conus-pacific title"
+    },
+    {
+      "rel": "child",
+      "href": "./great-lakes_great-lakes/collection.json",
+      "type": "application/json",
+      "title": "great-lakes_great-lakes title"
+    }
+  ],
+  "title": "Hydrofabric Surfaces STAC Catalog"
+}

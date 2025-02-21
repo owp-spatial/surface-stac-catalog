@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "id": "conus_conus",
+  "stac_version": "1.0.0",
+  "description": "conus_conus description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./USGS_Seamless_DEM_13/USGS_Seamless_DEM_13.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./USGS_Seamless_DEM_1/USGS_Seamless_DEM_1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./epydro_BW_03_OLV_20170207_CS_OLD_LOCK_10_AND_11_BAR_sounding_points/epydro_BW_03_OLV_20170207_CS_OLD_LOCK_10_AND_11_BAR_sounding_points.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus_conus title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.00166666668287,
+          -15.001667458694854,
+          781447.4832384777,
+          1162799.804210336
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:40:30.937528Z",
+          "2025-02-21T09:40:33.329903Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,47 @@
+{
+  "type": "Collection",
+  "id": "great-lakes_great-lakes",
+  "stac_version": "1.0.0",
+  "description": "great-lakes_great-lakes description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./tbdem_great_lakes_30m/tbdem_great_lakes_30m.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "great-lakes_great-lakes title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -89.0016666668826,
+          40.99842342343676,
+          -78.99842342363935,
+          47.00166666668
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:40:41.498597Z",
+          "2025-02-21T09:40:41.498597Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

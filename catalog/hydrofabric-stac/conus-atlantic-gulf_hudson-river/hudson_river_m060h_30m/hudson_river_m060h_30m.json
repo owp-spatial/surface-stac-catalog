@@ -1,0 +1,85 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "hudson_river_m060h_30m",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          582147.7228078707,
+          4527513.91745288
+        ],
+        [
+          582147.7228078707,
+          4678413.91745288
+        ],
+        [
+          597777.7228078707,
+          4678413.91745288
+        ],
+        [
+          597777.7228078707,
+          4527513.91745288
+        ],
+        [
+          582147.7228078707,
+          4527513.91745288
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    582147.7228078707,
+    4527513.91745288,
+    597777.7228078707,
+    4678413.91745288
+  ],
+  "properties": {
+    "source": "ncei_ngdc",
+    "resolution": "30m",
+    "horizontal_crs": "WGS 1984 UTM Zone 18N",
+    "vertical_datum": "NAVD88",
+    "priority": 13,
+    "GDAL_AREA_OR_POINT": "Point",
+    "Conventions": "CF-1.5",
+    "GDAL": "GDAL 2.1.0, released 2016/04/25",
+    "history": "Wed Apr 12 22:14:30 2017: GDAL CreateCopy( hudson_river_m060h_30m.nc, ... )",
+    "DODS.strlen": 0,
+    "datetime": "2025-02-21T09:37:22.341808Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_hudson-river title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_hudson-river title"
+    }
+  ],
+  "assets": {
+    "hudson_river_m060h_30m": {
+      "href": "https://www.ngdc.noaa.gov/thredds/dodsC/regional/hudson_river_m060h_30m.nc",
+      "type": "application/netcdf",
+      "title": "hudson_river_m060h_30m",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "conus-atlantic-gulf_hudson-river"
+}

@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "british_columbia_3_msl_2013",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -137.4499999970135,
+          48.0500000000015
+        ],
+        [
+          -137.4499999970135,
+          54.1999999975415
+        ],
+        [
+          -122.20000000311349,
+          54.1999999975415
+        ],
+        [
+          -122.20000000311349,
+          48.0500000000015
+        ],
+        [
+          -137.4499999970135,
+          48.0500000000015
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -137.4499999970135,
+    48.0500000000015,
+    -122.20000000311349,
+    54.1999999975415
+  ],
+  "properties": {
+    "source": "NOS Hydrographic Surveys; NGDC Multibeam Bathymetry Database; Electronic Navigational Chart (ENC) digital coastline and soundings; NGDC ETOPO1; Port Townsend, Washington Coastal Digital Elevation Model; National Geospatial-Intelligence Agency Digital Nautical Chart (DNC) extracted soundings and coastline; Canadian Hydrographic Service Multibeam bathymetry; Digital elevation model (DEM) of Cascadia, latitude 39N-53N, longitude 116W-133W; bc_eez_100m",
+    "resolution": "90m",
+    "horizontal_crs": "WGS 1984",
+    "vertical_datum": "MSL",
+    "priority": 11,
+    "GDAL_AREA_OR_POINT": "Area",
+    "Conventions": "ACDD 1.3, CF-1.6",
+    "GDAL": "GDAL 1.11.4, released 2016/01/25",
+    "history": "Tue Jul 26 17:34:35 2016: GDAL CreateCopy( /nfs/metadata_working/DEM/british_columbia_3sec.nc, ... )",
+    "title": "British Columbia 3 arc-second Bathymetric Digital Elevation Model",
+    "GMT_version": "4.5.13 [64-bit]",
+    "node_offset": 1,
+    "summary": "The 3 arc-second British Columbia DEM will be used to support NOAA's tsunami forecast system and for tsunami inundation modeling. This DEM covers the coastal area off-shore British Columbia.",
+    "keywords": "Earth Science > Oceans > Bathymetry/Seafloor Topography > Seafloor Topography; Earth Science > Oceans > Bathymetry/Seafloor Topography > Bathymetry; Earth Science > Oceans > Bathymetry/Seafloor Topography > Water Depth; Earth Science > Oceans > Coastal Processes > Coastal Elevation; DEM > Digital Elevation Model; H: 1 meter - < 30 meters; V: < 1 meter; Coastal Relief; Gridded elevations; Bathymetry",
+    "time_coverage_start": "1930-01-01",
+    "time_coverage_end": "2012-01-01",
+    "id": "4956",
+    "naming_authority": "gov.noaa.ngdc.mgg.dem",
+    "comment": "Developed for the Pacific Marine Environmental Laboratory (PMEL), NOAA Center for Tsunami Research program in support of NOAA's tsunami forecasting and warning efforts.",
+    "license": "Not to be used for navigation. Although these data are of high quality and useful for planning and modeling purposes, they are not suitable for navigation. For navigation, please refer to the NOS nautical chart series.; Produced by the NOAA National Geophysical Data Center. Not subject to copyright protection within the United States.; While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.",
+    "creator_name": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce; publisher; DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce; 303-497-6826; 303-497-6513; 325 Broadway; Boulder; CO; 80305-3328; USA; ngdc.info@noaa.gov; custodian; DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce; 303-497-6826; 303-497-6513; 325 Broadway; Boulder; CO; 80305-3328; USA; ngdc.info@noaa.gov; originator; DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce; originator",
+    "creator_email": "dem.info@noaa.gov",
+    "creator_url": "http://www.ngdc.noaa.gov/mgg/dem",
+    "geospatial_bounds_crs": "World Geodetic System 1984",
+    "geospatial_bounds_vertical_crs": "Mean Sea Level depth",
+    "publisher_name": "NOAA National Center for Environmental Information",
+    "publisher_email": "dem.info@noaa.gov",
+    "publisher_url": "http://www.ngdc.noaa.gov/mgg/dem",
+    "geospatial_lat_min": "45.91",
+    "geospatial_lat_max": "47.20",
+    "geospatial_lon_min": "-124.33",
+    "geospatial_lon_max": "-123.58",
+    "cdm_data_type": "Grid",
+    "date_issued": "2013-07-09; publication",
+    "date_metadata_modified": "2016-07-28",
+    "product_version": "First",
+    "keywords_vocabulary": "CF Standard Name Table v27",
+    "references": "Bathymetric Digital Elevation Model of British Columbia, Canada: Procedures, Data Sources, and Analysis",
+    "creator_type": "group or institution",
+    "creator_institution": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce; publisher; DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce; 303-497-6826; 303-497-6513; 325 Broadway; Boulder; CO; 80305-3328; USA; ngdc.info@noaa.gov; custodian; DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce; 303-497-6826; 303-497-6513; 325 Broadway; Boulder; CO; 80305-3328; USA; ngdc.info@noaa.gov; originator; DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce; originator",
+    "publisher_type": "institution",
+    "geospatial_lat_units": "decimal degrees",
+    "geospatial_lon_units": "decimal degrees",
+    "geospatial_lon_resolution": "0.00083333333",
+    "geospatial_lat_resolution": "0.00083333333",
+    "project": "ICSU-WDS > International Council for Science - World Data System",
+    "geospatial_vertical_resolution": "0.00083333333",
+    "DODS.strlen": 0,
+    "datetime": "2025-02-21T09:40:27.106776Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_british-columbia-and-washington title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_british-columbia-and-washington title"
+    }
+  ],
+  "assets": {
+    "british_columbia_3_msl_2013": {
+      "href": "https://www.ngdc.noaa.gov/thredds/dodsC/regional/british_columbia_3_msl_2013.nc",
+      "type": "application/netcdf",
+      "title": "british_columbia_3_msl_2013",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "conus-pacific_british-columbia-and-washington"
+}

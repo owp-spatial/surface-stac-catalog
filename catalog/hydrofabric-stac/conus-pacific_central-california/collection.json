@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_central-california",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_central-california description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./central_california_1_navd88_2010/central_california_1_navd88_2010.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./central_california_1_navd88_2010/central_california_1_navd88_2010.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_central-california title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -124.0,
+          37.0,
+          -121.8499999828,
+          38.750000014
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:38:03.202299Z",
+          "2025-02-21T09:38:08.538555Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

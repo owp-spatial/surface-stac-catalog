@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "crm_vol9_2023",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -67.99986111111112,
+          17.000138888888888
+        ],
+        [
+          -67.99986111111112,
+          18.999861111111112
+        ],
+        [
+          -64.25013888888888,
+          18.999861111111112
+        ],
+        [
+          -64.25013888888888,
+          17.000138888888888
+        ],
+        [
+          -67.99986111111112,
+          17.000138888888888
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -67.99986111111112,
+    17.000138888888888,
+    -64.25013888888888,
+    18.999861111111112
+  ],
+  "properties": {
+    "source": "ncei_crm",
+    "resolution": "30m",
+    "horizontal_crs": "WGS84",
+    "vertical_datum": "MSL",
+    "priority": 3,
+    "GDAL_AREA_OR_POINT": "Area",
+    "node_offset": 1,
+    "GDAL_TIFFTAG_COPYRIGHT": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce",
+    "GDAL_TIFFTAG_DATETIME": 20220607095229.0,
+    "GDAL_TIFFTAG_IMAGEDESCRIPTION": "Topography-Bathymetry; ",
+    "Conventions": "CF-1.5",
+    "GDAL": "GDAL 3.5.0, released 2022/05/10",
+    "NCO": "netCDF Operators version 5.0.6 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)",
+    "DODS.strlen": 0,
+    "datetime": "2025-02-21T09:35:42.619924Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_puerto-rico-virgin-islands title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "puerto-rico-virgin-islands_puerto-rico-virgin-islands title"
+    }
+  ],
+  "assets": {
+    "crm_vol9_2023": {
+      "href": "https://www.ngdc.noaa.gov/thredds/dodsC/crm/cudem/crm_vol9_2023.nc",
+      "type": "application/netcdf",
+      "title": "crm_vol9_2023",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "puerto-rico-virgin-islands_puerto-rico-virgin-islands"
+}

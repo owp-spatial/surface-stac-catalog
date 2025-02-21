@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_garibaldi-oregon",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_garibaldi-oregon description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./garibaldi_13_navd88_2013/garibaldi_13_navd88_2013.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./garibaldi_13_navd88_2013/garibaldi_13_navd88_2013.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_garibaldi-oregon title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -124.5,
+          45.1,
+          -123.7000000000224,
+          45.8999999999776
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:39:00.279696Z",
+          "2025-02-21T09:39:05.192361Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

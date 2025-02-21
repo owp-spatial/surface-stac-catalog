@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "hi_dem",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          329415.0,
+          2083485.0
+        ],
+        [
+          329415.0,
+          2469565.0
+        ],
+        [
+          951005.0,
+          2469565.0
+        ],
+        [
+          951005.0,
+          2083485.0
+        ],
+        [
+          329415.0,
+          2083485.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    329415.0,
+    2083485.0,
+    951005.0,
+    2469565.0
+  ],
+  "properties": {
+    "source": "usgs_3dep",
+    "resolution": "10m",
+    "horizontal_crs": "NAD83",
+    "vertical_datum": "MSL",
+    "priority": 4,
+    "proj:epsg": 26904,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            329415.0,
+            2083485.0
+          ],
+          [
+            951005.0,
+            2083485.0
+          ],
+          [
+            951005.0,
+            2469565.0
+          ],
+          [
+            329415.0,
+            2469565.0
+          ],
+          [
+            329415.0,
+            2083485.0
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      329415.0,
+      2083485.0,
+      951005.0,
+      2469565.0
+    ],
+    "proj:shape": [
+      38608,
+      62159
+    ],
+    "proj:transform": [
+      10.0,
+      0.0,
+      329415.0,
+      0.0,
+      -10.0,
+      2469565.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-02-21T09:35:59.682708Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hawaii_hawaii title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hawaii_hawaii title"
+    }
+  ],
+  "assets": {
+    "hi_dem": {
+      "href": "https://lynker-spatial.s3-us-west-2.amazonaws.com/gridded-resources/hi_dem.tif",
+      "type": "image/tiff",
+      "title": "hi_dem",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "hawaii_hawaii"
+}

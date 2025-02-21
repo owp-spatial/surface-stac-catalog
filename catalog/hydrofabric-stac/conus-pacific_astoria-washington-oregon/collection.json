@@ -1,0 +1,62 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_astoria-washington-oregon",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_astoria-washington-oregon description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./astoria_13_mhw_2012/astoria_13_mhw_2012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./astoria_13_mhw_2012/astoria_13_mhw_2012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./astoria_13_mhw_2012/astoria_13_mhw_2012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./astoria_13_mhw_2012/astoria_13_mhw_2012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_astoria-washington-oregon title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -124.59,
+          45.9,
+          -123.60000002772,
+          47.15999996472
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:38:34.472583Z",
+          "2025-02-21T09:38:46.977931Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

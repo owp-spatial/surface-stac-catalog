@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "tbdem_hawaii_30m",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -160.5006900000003,
+          18.49932
+        ],
+        [
+          -160.5006900000003,
+          22.50045
+        ],
+        [
+          -154.4996700000003,
+          22.50045
+        ],
+        [
+          -154.4996700000003,
+          18.49932
+        ],
+        [
+          -160.5006900000003,
+          18.49932
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -160.5006900000003,
+    18.49932,
+    -154.4996700000003,
+    22.50045
+  ],
+  "properties": {
+    "source": "nws-topobathy",
+    "resolution": "30m",
+    "horizontal_crs": "",
+    "vertical_datum": "",
+    "priority": 1,
+    "proj:epsg": 4326,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -160.5006900000003,
+            18.49932
+          ],
+          [
+            -154.4996700000003,
+            18.49932
+          ],
+          [
+            -154.4996700000003,
+            22.50045
+          ],
+          [
+            -160.5006900000003,
+            22.50045
+          ],
+          [
+            -160.5006900000003,
+            18.49932
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -160.5006900000003,
+      18.49932,
+      -154.4996700000003,
+      22.50045
+    ],
+    "proj:shape": [
+      14819,
+      22226
+    ],
+    "proj:transform": [
+      0.0002700000000000005,
+      0.0,
+      -160.5006900000003,
+      0.0,
+      -0.00027,
+      22.50045,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-02-21T09:36:01.275734Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hawaii_hawaii title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hawaii_hawaii title"
+    }
+  ],
+  "assets": {
+    "tbdem_hawaii_30m": {
+      "href": "https://spatial-water-noaa.s3.amazonaws.com/surface/nws-topobathy/hawaii/tbdem_hawaii_30m.tif",
+      "type": "image/tiff",
+      "title": "tbdem_hawaii_30m",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "hawaii_hawaii"
+}

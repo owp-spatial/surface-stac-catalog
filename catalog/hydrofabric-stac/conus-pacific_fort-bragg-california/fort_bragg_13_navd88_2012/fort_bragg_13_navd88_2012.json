@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "fort_bragg_13_navd88_2012",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -125.049953703705,
+          39.380046296295
+        ],
+        [
+          -125.049953703705,
+          40.280046271095
+        ],
+        [
+          -123.719953740945,
+          40.280046271095
+        ],
+        [
+          -123.719953740945,
+          39.380046296295
+        ],
+        [
+          -125.049953703705,
+          39.380046296295
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -125.049953703705,
+    39.380046296295,
+    -123.719953740945,
+    40.280046271095
+  ],
+  "properties": {
+    "source": "NOS Hydrographic Surveys; NGDC Multibeam Bathymetry Database; NASA/USGS Airborne LiDAR Assessment of Coastal Erosion (ALACE) Topography-Bathymetry; USGS NED topography; Composite Shoreline of the Continental United States Derived from NOAA-NOS Coastal Survey Maps; Bench Mark Data Sheets with Tidal Datum References; VDatum software v. 2.2.7; VDatum software v. 2.2.7",
+    "resolution": "10m",
+    "horizontal_crs": "WGS 1984",
+    "vertical_datum": "NAVD88",
+    "priority": 6,
+    "GDAL_AREA_OR_POINT": "Area",
+    "Conventions": "ACDD 1.3, CF-1.6",
+    "GDAL": "GDAL 1.11.4, released 2016/01/25",
+    "history": "Tue Jul 26 17:50:58 2016: GDAL CreateCopy( /nfs/metadata_working/DEM/fort_bragg_ca-1_3_arc_second-navd88.nc, ... )",
+    "title": "Fort Bragg, California Coastal Digital Elevation Model",
+    "GMT_version": "4.5.13 [64-bit]",
+    "node_offset": 1,
+    "summary": "NOAA's National Geophysical Data Center (NGDC) is building high-resolution digital elevation models (DEMs) for select U.S. coastal regions. These integrated bathymetric-topographic DEMs are used to support tsunami forecasting and modeling efforts at the NOAA Center for Tsunami Research, Pacific Marine Environmental Laboratory (PMEL). The DEMs are part of the tsunami forecast system SIFT (Short-term Inundation Forecasting for Tsunamis) currently being developed by PMEL for the NOAA Tsunami Warning Centers, and are used in the MOST (Method of Splitting Tsunami) model developed by PMEL to simulate tsunami generation, propagation, and inundation. Bathymetric, topographic, and shoreline data used in DEM compilation are obtained from various sources, including NGDC, the U.S. National Ocean Service (NOS), the U.S. Geological Survey (USGS), the Canadian Hydrographic Service (CHS), the Puget Sound Lidar Consortium (PSLC), the Joint Airborne Lidar Bathymetry; Technical Center of Expertise (JALBTCX), Canadian Digital Elevation Data (CDED) and other international, federal, state, and local government agencies, academic institutions, and private companies. DEMs are referenced to the vertical tidal datums of Mean High Water (MHW) and North American Vertical Datum of 1988 (NAVD 88) and horizontal datum of World Geodetic System 1984 (WGS 84). Grid spacings for the DEMs range from 1/3 arc-second (~10 meters) to 3 arc-seconds (~30 meters).",
+    "keywords": "Earth Science > Oceans > Bathymetry/Seafloor Topography > Seafloor Topography; Earth Science > Oceans > Bathymetry/Seafloor Topography > Bathymetry; Earth Science > Oceans > Bathymetry/Seafloor Topography > Water Depth; Earth Science > Land Surface > Topography > Terrain Elevation; Earth Science > Land Surface > Topography > Topographical Relief Maps; Earth Science > Oceans > Coastal Processes > Coastal Elevation; DEM > Digital Elevation Model; H: 1 meter - < 30 meters; V: < 1 meter; Coastal Relief; Gridded elevations; Integrated bathymetry and topography",
+    "time_coverage_start": "1924-01-01",
+    "time_coverage_end": "2010-01-01",
+    "id": "3546",
+    "naming_authority": "gov.noaa.ngdc.mgg.dem",
+    "comment": "Developed for the Pacific Marine Environmental Laboratory (PMEL), NOAA Center for Tsunami Research program in support of NOAA's tsunami forecasting and warning efforts.",
+    "license": "Not to be used for navigation. Although these data are of high quality and useful for planning and modeling purposes, they are not suitable for navigation. For navigation, please refer to the NOS nautical chart series.; Produced by the NOAA National Geophysical Data Center. Not subject to copyright protection within the United States.; While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.",
+    "creator_name": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce; publisher; DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce; Boulder; Colorado; publisher; DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce; originator; Citation URL; http://www.ngdc.noaa.gov/dem/squareCellGrid/download/3546; Fort Bragg, CA 1/3 arc-second Tsunami Inundation DEM; Download page for accessing DEM, metadata record and development report.; download; Citation URL; http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html; NOAA Tsunami Inundation Gridding Project; Project web page.; information",
+    "creator_email": "dem.info@noaa.gov",
+    "creator_url": "http://www.ngdc.noaa.gov/mgg/dem",
+    "project": "ICSU-WDS > International Council for Science - World Data System",
+    "geospatial_bounds_crs": "World Geodetic System 1984",
+    "geospatial_bounds_vertical_crs": "North American Vertical Datum 1988",
+    "publisher_name": "NOAA National Center for Environmental Information",
+    "publisher_email": "dem.info@noaa.gov",
+    "publisher_url": "http://www.ngdc.noaa.gov/mgg/dem",
+    "geospatial_lat_min": "39.28",
+    "geospatial_lat_max": "40.38",
+    "geospatial_lon_min": "-125.05",
+    "geospatial_lon_max": "-123.72",
+    "cdm_data_type": "Grid",
+    "date_issued": "2012-01-15; publication",
+    "date_metadata_modified": "2016-07-28",
+    "product_version": "First",
+    "keywords_vocabulary": "CF Standard Name Table v27",
+    "references": "Digital Elevation Models of Fort Bragg, California: Procedures, Data Sources, and Analysis",
+    "creator_type": "group or institution",
+    "creator_institution": "DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce; publisher; DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce; Boulder; Colorado; publisher; DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce; originator; Citation URL; http://www.ngdc.noaa.gov/dem/squareCellGrid/download/3546; Fort Bragg, CA 1/3 arc-second Tsunami Inundation DEM; Download page for accessing DEM, metadata record and development report.; download; Citation URL; http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html; NOAA Tsunami Inundation Gridding Project; Project web page.; information",
+    "publisher_type": "institution",
+    "geospatial_lat_units": "decimal degrees",
+    "geospatial_lon_units": "decimal degrees",
+    "geospatial_lon_resolution": "0.00009259",
+    "geospatial_lat_resolution": "0.00009259",
+    "geospatial_vertical_resolution": "0.00009259",
+    "DODS.strlen": 0,
+    "datetime": "2025-02-21T09:39:57.143093Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_fort-bragg-california title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_fort-bragg-california title"
+    }
+  ],
+  "assets": {
+    "fort_bragg_13_navd88_2012": {
+      "href": "https://www.ngdc.noaa.gov/thredds/dodsC/regional/fort_bragg_13_navd88_2012.nc",
+      "type": "application/netcdf",
+      "title": "fort_bragg_13_navd88_2012",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "conus-pacific_fort-bragg-california"
+}

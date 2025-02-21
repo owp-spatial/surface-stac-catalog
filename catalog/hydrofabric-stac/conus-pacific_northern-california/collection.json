@@ -1,0 +1,47 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_northern-california",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_northern-california description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./CA_north_coned_DEM_2020_EPSG-3717/CA_north_coned_DEM_2020_EPSG-3717.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_northern-california title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          369824.0,
+          4181345.0,
+          545928.0,
+          4651174.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:38:00.636914Z",
+          "2025-02-21T09:38:00.636914Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

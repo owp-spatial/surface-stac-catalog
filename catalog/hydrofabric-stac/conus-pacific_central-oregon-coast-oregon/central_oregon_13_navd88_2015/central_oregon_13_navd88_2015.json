@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "central_oregon_13_navd88_2015",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -124.62999999999501,
+          43.7000000308
+        ],
+        [
+          -124.62999999999501,
+          45.139999990480014
+        ],
+        [
+          -123.810000022955,
+          45.139999990480014
+        ],
+        [
+          -123.810000022955,
+          43.7000000308
+        ],
+        [
+          -124.62999999999501,
+          43.7000000308
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -124.62999999999501,
+    43.7000000308,
+    -123.810000022955,
+    45.139999990480014
+  ],
+  "properties": {
+    "source": "ncei_ngdc",
+    "resolution": "10m",
+    "horizontal_crs": "WGS84",
+    "vertical_datum": "NAVD88",
+    "priority": 6,
+    "GDAL_AREA_OR_POINT": "Area",
+    "Conventions": "COARDS/CF-1.0",
+    "GDAL": "GDAL 2.1.0, released 2016/04/25",
+    "history": "Thu Aug 10 22:27:38 2017: GDAL CreateCopy( central_oregon_13_navd88_2015.nc, ... )",
+    "title": "GDAL Band Number 1",
+    "GMT_version": "4.5.13 [64-bit]",
+    "node_offset": 1,
+    "DODS.strlen": 0,
+    "datetime": "2025-02-21T09:38:30.450685Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_central-oregon-coast-oregon title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-pacific_central-oregon-coast-oregon title"
+    }
+  ],
+  "assets": {
+    "central_oregon_13_navd88_2015": {
+      "href": "https://www.ngdc.noaa.gov/thredds/dodsC/regional/central_oregon_13_navd88_2015.nc",
+      "type": "application/netcdf",
+      "title": "central_oregon_13_navd88_2015",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "conus-pacific_central-oregon-coast-oregon"
+}

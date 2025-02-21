@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_eureka-california",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_eureka-california description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./eureka_13_navd88_2009/eureka_13_navd88_2009.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./eureka_13_navd88_2009/eureka_13_navd88_2009.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_eureka-california title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -125.01000000000501,
+          40.269999999999996,
+          -124.00000002828502,
+          41.41999996779999
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:39:42.935176Z",
+          "2025-02-21T09:39:47.269550Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

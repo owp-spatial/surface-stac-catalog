@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "puerto-rico-virgin-islands_puerto-rico",
+  "stac_version": "1.0.0",
+  "description": "puerto-rico-virgin-islands_puerto-rico description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./NCEI_ninth_Topobathy_PuertoRico_EPSG-4269/NCEI_ninth_Topobathy_PuertoRico_EPSG-4269.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NCEI_third_Topobathy_PuertoRico_EPSG-4269/NCEI_third_Topobathy_PuertoRico_EPSG-4269.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "puerto-rico-virgin-islands_puerto-rico title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -68.00055555555979,
+          17.499444444398133,
+          -65.24944444435604,
+          19.00055555555978
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:35:35.522874Z",
+          "2025-02-21T09:35:36.947840Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

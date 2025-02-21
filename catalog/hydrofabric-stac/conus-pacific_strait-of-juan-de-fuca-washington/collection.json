@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_strait-of-juan-de-fuca-washington",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_strait-of-juan-de-fuca-washington description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./CoNED_Juan_de_Fuca_DEM_2021_EPSG-6339/CoNED_Juan_de_Fuca_DEM_2021_EPSG-6339.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./strait_of_juan_de_fuca_13_navd88_2015/strait_of_juan_de_fuca_13_navd88_2015.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./strait_of_juan_de_fuca_13_navd88_2015/strait_of_juan_de_fuca_13_navd88_2015.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_strait-of-juan-de-fuca-washington title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -125.11999998068501,
+          48.04,
+          484875.0,
+          5376600.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:37:35.494654Z",
+          "2025-02-21T09:37:42.410412Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

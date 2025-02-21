@@ -1,0 +1,147 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "FL_DryTortugas_NGS_DEM_2015_EPSG-26917",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          301931.065,
+          2716895.765
+        ],
+        [
+          301931.065,
+          2736587.765
+        ],
+        [
+          321015.065,
+          2736587.765
+        ],
+        [
+          321015.065,
+          2716895.765
+        ],
+        [
+          301931.065,
+          2716895.765
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    301931.065,
+    2716895.765,
+    321015.065,
+    2736587.765
+  ],
+  "properties": {
+    "source": "noaa_ngs",
+    "resolution": "1m",
+    "horizontal_crs": "NAD 1983 UTM Zone 17N",
+    "vertical_datum": "NAVD88",
+    "priority": 7,
+    "proj:epsg": 26917,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            301931.065,
+            2716895.765
+          ],
+          [
+            321015.065,
+            2716895.765
+          ],
+          [
+            321015.065,
+            2736587.765
+          ],
+          [
+            301931.065,
+            2736587.765
+          ],
+          [
+            301931.065,
+            2716895.765
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      301931.065,
+      2716895.765,
+      321015.065,
+      2736587.765
+    ],
+    "proj:shape": [
+      19692,
+      19084
+    ],
+    "proj:transform": [
+      1.0,
+      0.0,
+      301931.065,
+      0.0,
+      -1.0,
+      2736587.765,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "vrt:source_count": 2,
+    "vrt:type": "mosaic",
+    "datetime": "2025-02-21T09:37:33.177549Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_dry-tourtugas title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "conus-atlantic-gulf_dry-tourtugas title"
+    }
+  ],
+  "assets": {
+    "vrt": {
+      "href": "https://coast.noaa.gov/htdata/raster2/elevation/FL_DryTortugas_NGS_DEM_2015_6212/FL_DryTortugas_NGS_DEM_2015_EPSG-26917.vrt",
+      "roles": [
+        "data",
+        "vrt"
+      ]
+    },
+    "FL_DryTortugas_NGS_DEM_2015_EPSG-26917": {
+      "href": "/vsicurl/https://coast.noaa.gov/htdata/raster2/elevation/FL_DryTortugas_NGS_DEM_2015_6212/FL_DryTortugas_NGS_DEM_2015_EPSG-26917.vrt",
+      "title": "Source FL_DryTortugas_NGS_DEM_2015_EPSG-26917",
+      "description": "Source file FL_DryTortugas_NGS_DEM_2015_EPSG-26917 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "FL1422_Blk_J_navd88_g12b_dem_v02": {
+      "href": "/vsicurl/https://coast.noaa.gov/htdata/raster2/elevation/FL_DryTortugas_NGS_DEM_2015_6212/./FL1422_Blk_J_navd88_g12b_dem_v02.tif",
+      "type": "image/tiff",
+      "title": "Source FL1422_Blk_J_navd88_g12b_dem_v02",
+      "description": "Source file FL1422_Blk_J_navd88_g12b_dem_v02 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    }
+  },
+  "collection": "conus-atlantic-gulf_dry-tourtugas"
+}

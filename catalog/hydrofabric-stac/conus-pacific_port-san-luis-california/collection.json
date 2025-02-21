@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_port-san-luis-california",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_port-san-luis-california description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./port_san_luis_13_navd88_2011/port_san_luis_13_navd88_2011.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./port_san_luis_13_navd88_2011/port_san_luis_13_navd88_2011.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_port-san-luis-california title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -121.3000925925935,
+          34.5999074074085,
+          -120.45009258885351,
+          35.6999074122485
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:40:02.331354Z",
+          "2025-02-21T09:40:06.987726Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_san-diego-california",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_san-diego-california description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./san_diego_13_navd88_2012/san_diego_13_navd88_2012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./san_diego_13_navd88_2012/san_diego_13_navd88_2012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_san-diego-california title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -117.83,
+          32.45,
+          -117.00000002323999,
+          33.59999996780001
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:40:12.887133Z",
+          "2025-02-21T09:40:17.333293Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

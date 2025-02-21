@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-atlantic-gulf_palm-beach",
+  "stac_version": "1.0.0",
+  "description": "conus-atlantic-gulf_palm-beach description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./palm_beach_13_navd88_2010/palm_beach_13_navd88_2010.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./palm_beach_13_navd88_2010/palm_beach_13_navd88_2010.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-atlantic-gulf_palm-beach title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -80.36,
+          26.29,
+          -79.42000002632,
+          27.30999997144
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:36:57.621386Z",
+          "2025-02-21T09:37:02.688598Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

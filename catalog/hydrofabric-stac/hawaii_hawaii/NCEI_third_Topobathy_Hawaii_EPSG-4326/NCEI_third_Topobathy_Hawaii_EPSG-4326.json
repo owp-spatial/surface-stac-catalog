@@ -1,0 +1,849 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "NCEI_third_Topobathy_Hawaii_EPSG-4326",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -160.5005555553183,
+          18.499444451767395
+        ],
+        [
+          -160.5005555553183,
+          22.500555555318314
+        ],
+        [
+          -154.49944445554692,
+          22.500555555318314
+        ],
+        [
+          -154.49944445554692,
+          18.499444451767395
+        ],
+        [
+          -160.5005555553183,
+          18.499444451767395
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -160.5005555553183,
+    18.499444451767395,
+    -154.49944445554692,
+    22.500555555318314
+  ],
+  "properties": {
+    "source": "ncei_cudem",
+    "resolution": "10m",
+    "horizontal_crs": "WGS84",
+    "vertical_datum": "MSL",
+    "priority": 2,
+    "proj:epsg": 9705,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -160.5005555553183,
+            18.499444451767395
+          ],
+          [
+            -154.49944445554692,
+            18.499444451767395
+          ],
+          [
+            -154.49944445554692,
+            22.500555555318314
+          ],
+          [
+            -160.5005555553183,
+            22.500555555318314
+          ],
+          [
+            -160.5005555553183,
+            18.499444451767395
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -160.5005555553183,
+      18.499444451767395,
+      -154.49944445554692,
+      22.500555555318314
+    ],
+    "proj:shape": [
+      43212,
+      64812
+    ],
+    "proj:transform": [
+      9.259259241762903e-05,
+      0.0,
+      -160.5005555553183,
+      0.0,
+      -9.259259241763678e-05,
+      22.500555555318314,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "vrt:source_count": 80,
+    "vrt:type": "mosaic",
+    "datetime": "2025-02-21T09:35:53.593743Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hawaii_hawaii title"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hawaii_hawaii title"
+    }
+  ],
+  "assets": {
+    "vrt": {
+      "href": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/NCEI_third_Topobathy_Hawaii_EPSG-4326.vrt",
+      "roles": [
+        "data",
+        "vrt"
+      ]
+    },
+    "NCEI_third_Topobathy_Hawaii_EPSG-4326": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/NCEI_third_Topobathy_Hawaii_EPSG-4326.vrt",
+      "title": "Source NCEI_third_Topobathy_Hawaii_EPSG-4326",
+      "description": "Source file NCEI_third_Topobathy_Hawaii_EPSG-4326 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x75_w155x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n18x75_w155x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x75_w155x50_2021v1",
+      "description": "Source file ncei13_n18x75_w155x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x75_w155x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n18x75_w155x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x75_w155x75_2021v1",
+      "description": "Source file ncei13_n18x75_w155x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x75_w156x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n18x75_w156x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x75_w156x00_2021v1",
+      "description": "Source file ncei13_n18x75_w156x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n18x75_w156x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n18x75_w156x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n18x75_w156x25_2021v1",
+      "description": "Source file ncei13_n18x75_w156x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x00_w155x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x00_w155x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x00_w155x00_2021v1",
+      "description": "Source file ncei13_n19x00_w155x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x00_w155x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x00_w155x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x00_w155x25_2021v1",
+      "description": "Source file ncei13_n19x00_w155x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x00_w155x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x00_w155x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x00_w155x50_2021v1",
+      "description": "Source file ncei13_n19x00_w155x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x00_w156x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x00_w156x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x00_w156x25_2021v1",
+      "description": "Source file ncei13_n19x00_w156x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x25_w154x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x25_w154x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x25_w154x75_2021v1",
+      "description": "Source file ncei13_n19x25_w154x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x25_w155x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x25_w155x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x25_w155x00_2021v1",
+      "description": "Source file ncei13_n19x25_w155x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x25_w155x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x25_w155x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x25_w155x25_2021v1",
+      "description": "Source file ncei13_n19x25_w155x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x25_w156x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x25_w156x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x25_w156x25_2021v1",
+      "description": "Source file ncei13_n19x25_w156x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x50_w154x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x50_w154x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x50_w154x75_2021v1",
+      "description": "Source file ncei13_n19x50_w154x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x50_w156x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x50_w156x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x50_w156x25_2021v1",
+      "description": "Source file ncei13_n19x50_w156x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x50_w156x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x50_w156x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x50_w156x50_2021v1",
+      "description": "Source file ncei13_n19x50_w156x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x75_w154x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x75_w154x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x75_w154x75_2021v1",
+      "description": "Source file ncei13_n19x75_w154x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n19x75_w156x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n19x75_w156x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n19x75_w156x50_2021v1",
+      "description": "Source file ncei13_n19x75_w156x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x00_w154x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x00_w154x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x00_w154x75_2021v1",
+      "description": "Source file ncei13_n20x00_w154x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x00_w155x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x00_w155x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x00_w155x00_2021v1",
+      "description": "Source file ncei13_n20x00_w155x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x00_w156x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x00_w156x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x00_w156x50_2021v1",
+      "description": "Source file ncei13_n20x00_w156x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x25_w155x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x25_w155x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x25_w155x00_2021v1",
+      "description": "Source file ncei13_n20x25_w155x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x25_w155x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x25_w155x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x25_w155x25_2021v1",
+      "description": "Source file ncei13_n20x25_w155x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x25_w156x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x25_w156x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x25_w156x25_2021v1",
+      "description": "Source file ncei13_n20x25_w156x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x25_w156x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x25_w156x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x25_w156x50_2021v1",
+      "description": "Source file ncei13_n20x25_w156x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x50_w155x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x50_w155x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x50_w155x25_2021v1",
+      "description": "Source file ncei13_n20x50_w155x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x50_w155x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x50_w155x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x50_w155x50_2021v1",
+      "description": "Source file ncei13_n20x50_w155x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x50_w155x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x50_w155x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x50_w155x75_2021v1",
+      "description": "Source file ncei13_n20x50_w155x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x50_w156x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x50_w156x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x50_w156x25_2021v1",
+      "description": "Source file ncei13_n20x50_w156x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x50_w156x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x50_w156x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x50_w156x50_2021v1",
+      "description": "Source file ncei13_n20x50_w156x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x50_w156x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x50_w156x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x50_w156x75_2021v1",
+      "description": "Source file ncei13_n20x50_w156x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x50_w157x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x50_w157x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x50_w157x00_2021v1",
+      "description": "Source file ncei13_n20x50_w157x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x50_w157x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x50_w157x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x50_w157x25_2021v1",
+      "description": "Source file ncei13_n20x50_w157x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x75_w155x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x75_w155x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x75_w155x75_2021v1",
+      "description": "Source file ncei13_n20x75_w155x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x75_w157x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x75_w157x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x75_w157x25_2021v1",
+      "description": "Source file ncei13_n20x75_w157x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n20x75_w157x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n20x75_w157x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n20x75_w157x50_2021v1",
+      "description": "Source file ncei13_n20x75_w157x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x00_w155x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x00_w155x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x00_w155x75_2021v1",
+      "description": "Source file ncei13_n21x00_w155x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x00_w157x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x00_w157x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x00_w157x50_2021v1",
+      "description": "Source file ncei13_n21x00_w157x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x00_w157x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x00_w157x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x00_w157x75_2021v1",
+      "description": "Source file ncei13_n21x00_w157x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x25_w155x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x25_w155x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x25_w155x75_2021v1",
+      "description": "Source file ncei13_n21x25_w155x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x25_w156x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x25_w156x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x25_w156x00_2021v1",
+      "description": "Source file ncei13_n21x25_w156x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x25_w156x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x25_w156x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x25_w156x25_2021v1",
+      "description": "Source file ncei13_n21x25_w156x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x25_w156x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x25_w156x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x25_w156x50_2021v1",
+      "description": "Source file ncei13_n21x25_w156x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x25_w157x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x25_w157x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x25_w157x75_2021v1",
+      "description": "Source file ncei13_n21x25_w157x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x25_w158x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x25_w158x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x25_w158x00_2021v1",
+      "description": "Source file ncei13_n21x25_w158x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x25_w158x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x25_w158x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x25_w158x25_2021v1",
+      "description": "Source file ncei13_n21x25_w158x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x25_w158x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x25_w158x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x25_w158x50_2021v1",
+      "description": "Source file ncei13_n21x25_w158x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x25_w158x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x25_w158x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x25_w158x75_2021v1",
+      "description": "Source file ncei13_n21x25_w158x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x50_w156x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x50_w156x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x50_w156x50_2021v1",
+      "description": "Source file ncei13_n21x50_w156x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x50_w156x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x50_w156x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x50_w156x75_2021v1",
+      "description": "Source file ncei13_n21x50_w156x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x50_w157x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x50_w157x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x50_w157x00_2021v1",
+      "description": "Source file ncei13_n21x50_w157x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x50_w157x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x50_w157x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x50_w157x25_2021v1",
+      "description": "Source file ncei13_n21x50_w157x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x50_w157x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x50_w157x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x50_w157x50_2021v1",
+      "description": "Source file ncei13_n21x50_w157x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x50_w158x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x50_w158x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x50_w158x50_2021v1",
+      "description": "Source file ncei13_n21x50_w158x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x50_w158x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x50_w158x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x50_w158x75_2021v1",
+      "description": "Source file ncei13_n21x50_w158x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x75_w157x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x75_w157x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x75_w157x75_2021v1",
+      "description": "Source file ncei13_n21x75_w157x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x75_w158x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x75_w158x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x75_w158x75_2021v1",
+      "description": "Source file ncei13_n21x75_w158x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x75_w159x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x75_w159x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x75_w159x00_2021v1",
+      "description": "Source file ncei13_n21x75_w159x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x75_w159x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x75_w159x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x75_w159x25_2021v1",
+      "description": "Source file ncei13_n21x75_w159x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x75_w159x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x75_w159x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x75_w159x50_2021v1",
+      "description": "Source file ncei13_n21x75_w159x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x75_w159x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x75_w159x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x75_w159x75_2021v1",
+      "description": "Source file ncei13_n21x75_w159x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x75_w160x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x75_w160x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x75_w160x00_2021v1",
+      "description": "Source file ncei13_n21x75_w160x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x75_w160x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x75_w160x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x75_w160x25_2021v1",
+      "description": "Source file ncei13_n21x75_w160x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n21x75_w160x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n21x75_w160x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n21x75_w160x50_2021v1",
+      "description": "Source file ncei13_n21x75_w160x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x00_w157x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x00_w157x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x00_w157x75_2021v1",
+      "description": "Source file ncei13_n22x00_w157x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x00_w158x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x00_w158x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x00_w158x00_2021v1",
+      "description": "Source file ncei13_n22x00_w158x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x00_w158x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x00_w158x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x00_w158x25_2021v1",
+      "description": "Source file ncei13_n22x00_w158x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x00_w158x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x00_w158x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x00_w158x50_2021v1",
+      "description": "Source file ncei13_n22x00_w158x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x00_w158x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x00_w158x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x00_w158x75_2021v1",
+      "description": "Source file ncei13_n22x00_w158x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x00_w159x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x00_w159x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x00_w159x00_2021v1",
+      "description": "Source file ncei13_n22x00_w159x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x00_w159x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x00_w159x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x00_w159x25_2021v1",
+      "description": "Source file ncei13_n22x00_w159x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x00_w160x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x00_w160x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x00_w160x50_2021v1",
+      "description": "Source file ncei13_n22x00_w160x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x25_w159x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x25_w159x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x25_w159x25_2021v1",
+      "description": "Source file ncei13_n22x25_w159x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x25_w160x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x25_w160x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x25_w160x50_2021v1",
+      "description": "Source file ncei13_n22x25_w160x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x50_w159x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x50_w159x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x50_w159x25_2021v1",
+      "description": "Source file ncei13_n22x50_w159x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x50_w159x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x50_w159x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x50_w159x50_2021v1",
+      "description": "Source file ncei13_n22x50_w159x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x50_w159x75_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x50_w159x75_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x50_w159x75_2021v1",
+      "description": "Source file ncei13_n22x50_w159x75_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x50_w160x00_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x50_w160x00_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x50_w160x00_2021v1",
+      "description": "Source file ncei13_n22x50_w160x00_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x50_w160x25_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x50_w160x25_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x50_w160x25_2021v1",
+      "description": "Source file ncei13_n22x50_w160x25_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    },
+    "ncei13_n22x50_w160x50_2021v1": {
+      "href": "/vsicurl/https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/dem/NCEI_third_Topobathy_Hawaii_9429/./tiles/ncei13_n22x50_w160x50_2021v1.tif",
+      "type": "image/tiff",
+      "title": "Source ncei13_n22x50_w160x50_2021v1",
+      "description": "Source file ncei13_n22x50_w160x50_2021v1 referenced by the VRT",
+      "roles": [
+        "source"
+      ]
+    }
+  },
+  "collection": "hawaii_hawaii"
+}

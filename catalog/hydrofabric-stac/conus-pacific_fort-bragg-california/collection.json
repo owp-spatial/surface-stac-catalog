@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_fort-bragg-california",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_fort-bragg-california description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./fort_bragg_13_navd88_2012/fort_bragg_13_navd88_2012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./fort_bragg_13_navd88_2012/fort_bragg_13_navd88_2012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_fort-bragg-california title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -125.049953703705,
+          39.380046296295,
+          -123.719953740945,
+          40.280046271095
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:39:51.656168Z",
+          "2025-02-21T09:39:57.143093Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

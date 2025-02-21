@@ -1,0 +1,67 @@
+{
+  "type": "Collection",
+  "id": "hawaii_hawaii",
+  "stac_version": "1.0.0",
+  "description": "hawaii_hawaii description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./NCEI_ninth_Topobathy_Hawaii_EPSG-4326/NCEI_ninth_Topobathy_Hawaii_EPSG-4326.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./NCEI_third_Topobathy_Hawaii_EPSG-4326/NCEI_third_Topobathy_Hawaii_EPSG-4326.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./crm_vol10_2023/crm_vol10_2023.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./hi_dem/hi_dem.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./tbdem_hawaii_30m/tbdem_hawaii_30m.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "hawaii_hawaii title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -160.99986111116166,
+          18.000139028931667,
+          951005.0,
+          2469565.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:35:52.128534Z",
+          "2025-02-21T09:36:01.275734Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

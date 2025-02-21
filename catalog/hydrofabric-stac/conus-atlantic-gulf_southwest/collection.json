@@ -1,0 +1,47 @@
+{
+  "type": "Collection",
+  "id": "conus-atlantic-gulf_southwest",
+  "stac_version": "1.0.0",
+  "description": "conus-atlantic-gulf_southwest description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Southwest_FL_FDEM_DEM_2007_tif_EPSG-2882/Southwest_FL_FDEM_DEM_2007_tif_EPSG-2882.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-atlantic-gulf_southwest title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          380000.0,
+          875000.8101851849,
+          894999.1467113667,
+          1720000.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:37:28.014875Z",
+          "2025-02-21T09:37:28.014875Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

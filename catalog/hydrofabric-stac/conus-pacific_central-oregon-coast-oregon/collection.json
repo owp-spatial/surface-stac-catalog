@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "conus-pacific_central-oregon-coast-oregon",
+  "stac_version": "1.0.0",
+  "description": "conus-pacific_central-oregon-coast-oregon description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./central_oregon_13_navd88_2015/central_oregon_13_navd88_2015.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./central_oregon_13_navd88_2015/central_oregon_13_navd88_2015.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Hydrofabric Surfaces STAC Catalog"
+    }
+  ],
+  "title": "conus-pacific_central-oregon-coast-oregon title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -124.62999999999501,
+          43.7000000308,
+          -123.810000022955,
+          45.139999990480014
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-21T09:38:25.694680Z",
+          "2025-02-21T09:38:30.450685Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
