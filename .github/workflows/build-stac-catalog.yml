@@ -63,7 +63,7 @@ jobs:
       - name: Check installed packages
         run: pip list
       - name: Run main script
-        run: python runners/main.py --verbose "True"
+        run: python runners/main.py --verbose="True"
 
       # - name: Run main script
       #   run: python runners/main.py --catalog_path ${{ secrets.CATALOG_URI }} \

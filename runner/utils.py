@@ -1,6 +1,7 @@
 import json
 import typing 
 from typing import Union
+from os.path import basename
 
 import numpy as np
 import requests
