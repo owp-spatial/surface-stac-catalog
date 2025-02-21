@@ -10,7 +10,7 @@ on:
 
 jobs:
   run-main-script:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       DEBUG: ${{ secrets.DEBUG }}
       BASE_DIR: ${{ secrets.BASE_DIR }}
@@ -29,46 +29,60 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install Linux system dependencies
-        if: runner.os == 'Linux'
-        run: |
-          sudo apt-get update -y
-          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libzmq3-dev libomp-dev
-          sudo apt-get install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev
-          sudo apt-get install -y python3-dev build-essential
-          sudo apt-get install -y -V ca-certificates lsb-release wget
-          wget https://apache.jfrog.io/artifactory/arrow/$(lsb_release --id --short | tr 'A-Z' 'a-z')/apache-arrow-apt-source-latest-$(lsb_release --codename --short).deb
-          sudo apt-get install -y -V ./apache-arrow-apt-source-latest-$(lsb_release --codename --short).deb
-          sudo apt-get update -y
-          sudo apt-get install -y -V \
-            libarrow-dev libarrow-glib-dev \
-            libarrow-dataset-dev libarrow-dataset-glib-dev \
-            libparquet-dev libparquet-glib-dev
-          sudo apt-get install -f -y
+      # - name: Install Linux system dependencies
+      #   if: runner.os == 'Linux'
+      #   run: |
+      #     sudo apt-get update -y
+      #     sudo apt-get install -y libcurl4-openssl-dev libssl-dev libzmq3-dev libomp-dev
+      #     sudo apt-get install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev
+      #     sudo apt-get install -y python3-dev build-essential
+      #     sudo apt-get install -y -V ca-certificates lsb-release wget
+      #     wget https://apache.jfrog.io/artifactory/arrow/$(lsb_release --id --short | tr 'A-Z' 'a-z')/apache-arrow-apt-source-latest-$(lsb_release --codename --short).deb
+      #     sudo apt-get install -y -V ./apache-arrow-apt-source-latest-$(lsb_release --codename --short).deb
+      #     sudo apt-get update -y
+      #     sudo apt-get install -y -V \
+      #       libarrow-dev libarrow-glib-dev \
+      #       libarrow-dataset-dev libarrow-dataset-glib-dev \
+      #       libparquet-dev libparquet-glib-dev
+      #     sudo apt-get install -f -y
 
-      - name: Install macOS system dependencies
-        if: runner.os == 'macOS'
+      # - name: Install macOS system dependencies
+      #   if: runner.os == 'macOS'
+      #   run: |
+      #     brew install --force --overwrite python zeromq gdal geos proj udunits apache-arrow
+      - name: Install system dependencies
         run: |
-          brew install --force --overwrite python zeromq gdal geos proj udunits apache-arrow
+          sudo apt-get update -y
+          sudo apt-get install -y \
+            libcurl4-openssl-dev libssl-dev libzmq3-dev libomp-dev \
+            libudunits2-dev libgdal-dev libgeos-dev libproj-dev \
+            python3-dev build-essential ca-certificates lsb-release wget \
+            python3-numpy python3-rasterio  # Install numpy & rasterio via apt
+
       - name: Find GDAL config
         run: which gdal-config
 
       - name: Check GDAL version
         run: gdal-config --version
 
-      - name: Install rasterio and gdal
-        run: |
-          python -m pip install --user -U pip
-          python -m pip install numpy
-          GDAL_CONFIG=$(which gdal-config) python -m pip install --user --no-binary rasterio rasterio
+      # - name: Install rasterio and gdal
+      #   run: |
+      #     python -m pip install --user -U pip
+      #     python -m pip install numpy
+      #     GDAL_CONFIG=$(which gdal-config) python -m pip install --user --no-binary rasterio rasterio
 
       - name: Check installed packages
         run: pip list
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt --verbose
+          pip install -r requirements.txt --no-binary rasterio --verbose  # Ensure rasterio works with system GDAL
+
+      # - name: Install dependencies
+      #   run: |
+      #     python -m pip install --upgrade pip
+      #     pip install -r requirements.txt --verbose
 
       - name: Check installed packages
         run: pip list
