@@ -20,21 +20,6 @@ from runner.s3_data_cataloger import S3DataCataloger
 from config.config import Config as config
 
 # ----------------------------------------------------------------------------- 
-# ---- Catalog data in OWP Spatial S3 bucket data -----
-# ----------------------------------------------------------------------------- 
-
-# s3_bucket = S3Bucket(OWP_SPATIAL_S3_BUCKET_NAME)
-# s3_bucket.add_prefix("surface", "nws-ehydro")
-# s3_bucket.add_prefix("surface", "nws-nos-surveys")
-# s3_bucket.add_prefix("surface", "nws-topobathy")
-
-# prefix_list = s3_bucket.get_relative_prefixes()
-# prefix_list
-
-# s3_catalog = S3DataCataloger(bucket_name=OWP_SPATIAL_S3_BUCKET_NAME, prefix_list=prefix_list)
-# s3_catalog.get_metadata_list()
-
-# ----------------------------------------------------------------------------- 
 # ---- Main function -----
 # ----------------------------------------------------------------------------- 
 
