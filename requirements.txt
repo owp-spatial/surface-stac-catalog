@@ -51,7 +51,7 @@ setuptools
 shapely
 six
 soupsieve
-stac_manager @ git+https://github.com/owp-spatial/surface-stac-tools.git@3df4a2fe3afb50ef25972e2a5da8a6c9fbfaf55e
+stac_manager @ git+https://github.com/owp-spatial/surface-stac-tools.git@ae3f770e8e165ec6bc563fc452e57348cb4a9c6e
 toolz
 typing_extensions
 tzdata

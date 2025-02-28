@@ -22,16 +22,6 @@
     },
     {
       "rel": "item",
-      "href": "./AH_01_ARE_20111106_CS_2012_020/AH_01_ARE_20111106_CS_2012_020.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./AH_01_ARE_20130420_CS_2013_042/AH_01_ARE_20130420_CS_2013_042.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
       "href": "./tbdem_pr_usvi_30m/tbdem_pr_usvi_30m.json",
       "type": "application/json"
     },
@@ -57,8 +47,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-02-21T09:35:42.619924Z",
-          "2025-02-21T09:35:50.283435Z"
+          "2025-02-28T08:15:27.595162Z",
+          "2025-02-28T08:15:30.714371Z"
         ]
       ]
     }

@@ -96,7 +96,7 @@
     "proj:wkt2": "COMPD_CS[\"NAD83 + PRVD02 height\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4269\"]],VERT_CS[\"PRVD02 height\",VERT_DATUM[\"Puerto Rico Vertical Datum of 2002\",2005,AUTHORITY[\"EPSG\",\"1123\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"6641\"]]]",
     "vrt:source_count": 30,
     "vrt:type": "mosaic",
-    "datetime": "2025-02-21T09:35:36.947840Z"
+    "datetime": "2025-02-28T08:15:22.559284Z"
   },
   "links": [
     {
